@@ -1,0 +1,13 @@
+body{
+    background: linear-gradient(to bottom, rgb(9, 21, 151) 0.001%, #0E033B 99.999% );
+}
+
+/* background: linear-gradient(to bottom, rgb(4, 12, 100) 0%, #0E033B 50%, #1E1A38 100%); */
+
+.inner_retangle_main{ 
+    background-image: url('../../public/images/background_map.png');
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
