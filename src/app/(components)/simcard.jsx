@@ -6,16 +6,7 @@ import Link from 'next/link';
 
 const Simcard = ({ item }) => {
     const { text, imageSrc } = item;
-    const linkStyles = {
-        fontFamily: 'VCR OSD Mono, monospace',
-        fontSize: '20px',
-        fontWeight: 400,
-        lineHeight: '20px',
-        letterSpacing: '0em',
-        textAlign: 'left',
-        textDecorationColor: '#E800D2',
-        color: '#E800D2',
-    };
+
 
     return (
         <main>
@@ -90,7 +81,7 @@ const Simcard = ({ item }) => {
                             </svg>
                         </div>
                         <div className={styles.cardBody}>
-                            <p className={styles.cardInfo}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <p className={styles.cardInfo}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                         </div>
                         <div className={styles.imageContainer}>
                             <Image src={imageSrc} alt={`Simcard Image`} width={100} height={100}/>
