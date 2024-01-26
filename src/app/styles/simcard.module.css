@@ -1,0 +1,315 @@
+/* styles.css */
+
+.your-class {
+    /* border */
+    position: absolute;
+    width: 268.73px;
+    height: 401px;
+    left: 932px;
+    top: 326px;
+}
+
+/* Rectangle 42 */
+.your-class .rectangle-42 {
+    position: absolute;
+    width: 142.89px;
+    height: 9.05px;
+    left: 1003.36px;
+    top: 717.95px;
+    background: #E800D2;
+}
+
+/* Rectangle 44 */
+.your-class .rectangle-44 {
+    position: absolute;
+    width: 8.35px;
+    height: 62.31px;
+    left: 1003.36px;
+    top: 664.69px;
+    background: #E800D2;
+}
+
+/* Rectangle 45 */
+.your-class .rectangle-45 {
+    position: absolute;
+    width: 35.16px;
+    height: 9.99px;
+    left: 979.45px;
+    top: 655.7px;
+    background: #E800D2;
+    transform: rotate(12.72deg);
+}
+
+/* Rectangle 46 */
+.your-class .rectangle-46 {
+    position: absolute;
+    width: 45.7px;
+    height: 6.37px;
+    left: 935.11px;
+    top: 649.23px;
+    background: #E800D2;
+    transform: rotate(12.72deg);
+}
+
+/* Rectangle 47 */
+.your-class .rectangle-47 {
+    position: absolute;
+    width: 9.05px;
+    height: 61.09px;
+    left: 932px;
+    top: 588.63px;
+    background: #E800D2;
+}
+
+/* Rectangle 48 */
+.your-class .rectangle-48 {
+    position: absolute;
+    width: 8.35px;
+    height: 6.27px;
+    left: 932px;
+    top: 649.03px;
+    background: #E800D2;
+    border-radius: 0px 0px 0px 6px;
+}
+
+/* Rectangle 49 */
+.your-class .rectangle-49 {
+    position: absolute;
+    width: 3.83px;
+    height: 100.95px;
+    left: 937.22px;
+    top: 494.13px;
+    background: #E800D2;
+}
+
+/* Rectangle 50 */
+.your-class .rectangle-50 {
+    position: absolute;
+    width: 3.48px;
+    height: 100.95px;
+    left: 935.48px;
+    top: 590.9px;
+    background: #E800D2;
+    transform: rotate(180deg);
+}
+
+/* Rectangle 51 */
+.your-class .rectangle-51 {
+    position: absolute;
+    width: 9.05px;
+    height: 70.31px;
+    left: 932px;
+    top: 426.08px;
+    background: #E800D2;
+}
+
+/* Rectangle 52 */
+.your-class .rectangle-52 {
+    position: absolute;
+    width: 5.57px;
+    height: 48.73px;
+    left: 935.48px;
+    top: 386.92px;
+    background: #E800D2;
+}
+
+/* Rectangle 53 */
+.your-class .rectangle-53 {
+    position: absolute;
+    width: 9.05px;
+    height: 66.83px;
+    left: 932px;
+    top: 326px;
+    background: #E800D2;
+    border-radius: 13px 0px 0px 14px;
+}
+
+/* Rectangle 54 */
+.your-class .rectangle-54 {
+    position: absolute;
+    width: 162.56px;
+    height: 9.05px;
+    left: 941.05px;
+    top: 326px;
+    background: #E800D2;
+}
+
+/* Rectangle 55 */
+.your-class .rectangle-55 {
+    position: absolute;
+    width: 76.93px;
+    height: 4.18px;
+    left: 1095.25px;
+    top: 330.53px;
+    background: #E800D2;
+    border-radius: 3px;
+}
+
+/* Rectangle 56 */
+.your-class .rectangle-56 {
+    position: absolute;
+    width: 4.87px;
+    height: 20.19px;
+    left: 1167.31px;
+    top: 331.57px;
+    background: #E800D2;
+    border-radius: 7px;
+}
+
+/* Rectangle 57 */
+.your-class .rectangle-57 {
+    position: absolute;
+    width: 75.54px;
+    height: 3.48px;
+    left: 1100.82px;
+    top: 326px;
+    background: #E800D2;
+    border-radius: 5px;
+}
+
+/* Rectangle 58 */
+.your-class .rectangle-58 {
+    position: absolute;
+    width: 3.83px;
+    height: 39.68px;
+    left: 1172.88px;
+    top: 326px;
+    background: #E800D2;
+    border-radius: 5.5px;
+}
+
+/* Rectangle 59 */
+.your-class .rectangle-59 {
+    position: absolute;
+    width: 7.48px;
+    height: 23.67px;
+    left: 1169.22px;
+    top: 350.54px;
+    background: #E800D2;
+}
+
+/* Rectangle 60 */
+.your-class .rectangle-60 {
+    position: absolute;
+    width: 26.11px;
+    height: 20.02px;
+    left: 1174.27px;
+    top: 364.29px;
+    background: #E800D2;
+}
+
+/* Rectangle 64 */
+.your-class .rectangle-64 {
+    position: absolute;
+    width: 33.07px;
+    height: 19.67px;
+    left: 1167.66px;
+    top: 480.03px;
+    background: #E800D2;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+/* Rectangle 61 */
+.your-class .rectangle-61 {
+    position: absolute;
+    width: 7.31px;
+    height: 20.89px;
+    left: 1193.07px;
+    top: 380.3px;
+    background: #E800D2;
+}
+
+/* Rectangle 63 */
+.your-class .rectangle-63 {
+    position: absolute;
+    width: 7.66px;
+    height: 24.02px;
+    left: 1193.07px;
+    top: 464.37px;
+    background: #E800D2;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+/* Rectangle 62 */
+.your-class .rectangle-62 {
+    position: absolute;
+    width: 3.13px;
+    height: 52.56px;
+    left: 1193.07px;
+    top: 396.31px;
+    background: #E800D2;
+}
+
+/* Rectangle 65 */
+.your-class .rectangle-65 {
+    position: absolute;
+    width: 8.35px;
+    height: 73.62px;
+    left: 1167.66px;
+    top: 476.72px;
+    background: #E800D2;
+}
+
+/* Rectangle 66 */
+.your-class .rectangle-66 {
+    position: absolute;
+    width: 4.18px;
+    height: 44.56px;
+    left: 1171.83px;
+    top: 548.43px;
+    background: #E800D2;
+}
+
+/* Rectangle 67 */
+.your-class .rectangle-67 {
+    position: absolute;
+    width: 8.35px;
+    height: 67.01px;
+    left: 1167.66px;
+    top: 584.11px;
+    background: #E800D2;
+}
+
+/* Rectangle 68 */
+.your-class .rectangle-68 {
+    position: absolute;
+    width: 3.48px;
+    height: 77.97px;
+    left: 1167.66px;
+    top: 643.81px;
+    background: #E800D2;
+    border-radius: 5px;
+}
+
+/* Rectangle 70 */
+.your-class .rectangle-70 {
+    position: absolute;
+    width: 3.48px;
+    height: 73.45px;
+    left: 1172.88px;
+    top: 653.2px;
+    background: #E800D2;
+    border-radius: 5px;
+}
+
+/* Rectangle 69 */
+.your-class .rectangle-69 {
+    position: absolute;
+    width: 24.02px;
+    height: 3.83px;
+    left: 1147.12px;
+    top: 717.95px;
+    background: #E800D2;
+    border-radius: 5.5px;
+}
+
+/* Rectangle 71 */
+.your-class .rectangle-71 {
+    position: absolute;
+    width: 45.6px;
+    height: 3.83px;
+    left: 1130.76px;
+    top: 722.82px;
+    background: #E800D2;
+    border-radius: 5.5px;
+}
