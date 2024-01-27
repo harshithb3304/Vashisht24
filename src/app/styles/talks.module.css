@@ -1,4 +1,4 @@
-.workshopMain {
+.talksMain {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,13 +6,13 @@
     min-height: 100vh/* Updated to display Simcards in a column */
 }
 
-.workshopInfo {
+.talksInfo {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    margin-top: -100px;
+    margin-top: 10px;
     margin-bottom: 100px;
 
 }
@@ -22,5 +22,17 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
+
+}
+
+@media (max-width: 768px) {
+    .contentStyles {
+        width: 90%; /* Adjust width for better visibility on smaller screens */
+    }
+
+    .cardLayout {
+        margin-top: 20px; /* Added margin for better spacing on smaller screens */
+    }
+
 
 }

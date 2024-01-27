@@ -1,6 +1,6 @@
 // pages/Page.js
 import React from 'react';
-import styles from '@/app/styles/workshops.module.css';
+import styles from '@/app/styles/accommodation.module.css';
 import Simcard from '/src/app/(components)/simcard';
 
 const Page = () => {
@@ -40,8 +40,8 @@ const Page = () => {
 
     };
     return (
-        <main className={styles.workshopMain}>
-            <div className={styles.workshopInfo}>
+        <main className={styles.accommodationMain}>
+            <div className={styles.accommodationInfo}>
                 <div style={headingStyles}>ACCOMMODATION</div>
                 <div style={contentStyles}>
                     Book a Workshop at Vashisht 24 and unlock FREE access to EDM Night, Robowars, Guest Lectures, Exhibitions, Summits, and Gaming setups. Limited seats – seize the chance to blend learning with entertainment!

@@ -1,4 +1,4 @@
-.workshopMain {
+.eventsMain {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,13 +6,13 @@
     min-height: 100vh
 }
 
-.workshopInfo {
+.eventsInfo {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    margin-top: -100px;
+    margin-top: 50px;
     margin-bottom: 100px;
 
 }
@@ -24,3 +24,13 @@
     flex-direction: row;
 
 }
+@media (max-width: 768px) {
+    .eventsInfo {
+        padding: 0 15px; /* Added padding for better readability on mobile */
+    }
+
+    .cardLayout {
+        flex-direction: column; /* Adjusted for mobile layout */
+    }
+}
+

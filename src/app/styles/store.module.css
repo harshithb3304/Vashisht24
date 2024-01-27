@@ -1,26 +1,27 @@
-.workshopMain {
+.storeMain {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    min-height: 100vh/* Updated to display Simcards in a column */
+    min-height: 100vh;
 }
 
-.workshopInfo {
+.storeInfo {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    margin-top: -100px;
+    margin-top: 10px;
     margin-bottom: 100px;
-
 }
 
 .cardLayout {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
-
+    flex-direction: row; /* Updated to display Simcards in a column for mobile */
 }
+
+/* Additional styles for better responsiveness */
+

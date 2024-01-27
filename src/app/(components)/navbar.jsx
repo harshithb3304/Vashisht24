@@ -1,12 +1,19 @@
-import React from 'react';
+"use client"
+import React, { useState } from 'react';
 import styles from '@/app/styles/navbar.module.css';
-import Link from "next/link";
-import Image from "next/image";
+import Link from 'next/link';
+import Image from 'next/image';
 
 const Navbar = () => {
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+    const toggleMobileMenu = () => {
+        setIsMobileMenuOpen(!isMobileMenuOpen);
+    };
+
     const linkStyles = {
         fontFamily: 'VCR OSD Mono, monospace',
-        fontSize: '20px',
+        fontSize: '25px',
         fontWeight: 400,
         lineHeight: '20px',
         letterSpacing: '0em',
@@ -14,37 +21,49 @@ const Navbar = () => {
         textDecorationColor: '#E800D2',
         color: '#E800D2',
     };
+
     return (
         <main>
-
             <div className={styles.container}>
-                <div className={styles.nexuslogo}>
-                    <Link href={"/"}>
-                    <Image src={"/images/NexusAeonBnW.png"} alt={"LogoNexus"} width={60} height={60}/>
+
+                <div className={styles.vashishtlogo}>
+                    <Link href="/">
+                        <Image src="/images/VashishtLogo.png" alt="Logo" width={60} height={60}/>
                     </Link>
                 </div>
 
-                <div className={styles.nav}>
-                    <div>
-                        <Link href={"/"}>
-                            <Image src={"/images/VashishtLogo.png"} alt={"Logo"} width={20} height={20}/>
+                <div className={`${styles.nav} ${isMobileMenuOpen ? styles.mobileMenuOpen : ''}`}>
+
+
+                    <button className={`${styles.hamburgerIcon} ${isMobileMenuOpen ? styles.mobileView : ''}`}
+                            onClick={toggleMobileMenu}>
+                        {isMobileMenuOpen ? '✕' : '☰'}
+                    </button>
+
+                    <div className={styles.navbarArrangement}>
+                        <Link href={"/workshops"} style={linkStyles}>
+                            WORKSHOPS
+                        </Link>
+                        <Link href={"/talks"} style={linkStyles}>
+                            TALKS
+                        </Link>
+                        <Link href={"/events"} style={linkStyles}>
+                            EVENTS
+                        </Link>
+                        <Link href={"/accommodation"} style={linkStyles}>
+                            ACCOMMODATION
+                        </Link>
+                        <Link href={"/store"} style={linkStyles}>
+                            STORE
                         </Link>
                     </div>
-                    <div className={styles.navbarArrangement} style={{
-                        fontFamily: 'VCR OSD Mono',
-                        fontSize: '20px',
-                        fontWeight: 400,
-                        lineHeight: '20px',
-                        letterSpacing: '0em',
-                        textAlign: 'left'
-                    }}>
-                        <Link href={"/workshops"} style={linkStyles}>WORKSHOPS</Link>
-                        <Link href={"/talks"} style={linkStyles}>TALKS</Link>
-                        <Link href={"/events"} style={linkStyles}>EVENTS</Link>
-                        <Link href={"/accommodation"} style={linkStyles}>ACCOMMODATION</Link>
-                        <Link href={"/store"} style={linkStyles}>STORE</Link>
-                    </div>
                 </div>
+                <div className={styles.nexuslogo}>
+                    <Link href="/">
+                        <Image src="/images/NexusAeonBnW.png" alt="LogoNexus" width={60} height={60}/>
+                    </Link>
+                </div>
+
             </div>
         </main>
     );

@@ -1,12 +1,28 @@
-import React from 'react';
-import styles from '@/app/styles/page.module.css'
-import { Anonymous_Pro } from "next/dist/compiled/@next/font/dist/google";
-import Link from "next/link";
+"use client"
+import React, { useState, useEffect } from 'react';
+import styles from '@/app/styles/page.module.css';
+import Link from 'next/link';
 
 const Page = () => {
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 768);
+        };
+
+        handleResize();
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     const headingStyles = {
         fontFamily: 'VCR OSD Mono, monospace',
-        fontSize: '30px',
+        fontSize: isMobile ? '24px' : '30px',
         fontWeight: 400,
         lineHeight: '20px',
         letterSpacing: '0em',
@@ -14,26 +30,40 @@ const Page = () => {
         textDecorationColor: '#FFFFFF',
         color: '#FFFFFF',
         display: 'block',
-
     };
 
     const contentStyles = {
         fontFamily: 'Anonymous Pro, monospace',
-        fontSize: '20px',
+        fontSize: isMobile ? '16px' : '20px',
         fontWeight: '400',
         lineHeight: '20px',
         letterSpacing: '0e',
         textAlign: 'center',
-        width: '807px',
-        height: '100px',
-        top: '248px',
-        left: '236px',
-        textDecorationColor: '#FFFFFF',
-        color: '#FFFFFF',
-        display: 'block',
-        marginTop: '30px'
-
+        width: isMobile ? '100%' : '807px', // Adjust width for mobile
+        margin: '0 auto', // Center align content
+        marginTop: '30px',
+        color: "#FFFFFF"
     };
+    const buttonStyles = {
+        fontFamily: 'VCR OSD Mono, monospace',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        padding: '10px 15px',
+        backgroundColor: '#E800D2',
+        color: '#FFFFFF',
+        textDecoration: 'none',
+        borderRadius: '10%',
+        cursor: 'pointer',
+        transition: 'background-color 0.3s ease, transform 0.3s ease',
+        marginTop: isMobile ? '30px' : '100px',
+        position: 'relative',
+        left: isMobile ? '0' : '100%',  // Center align the button
+        transform: isMobile ? 'translateX(0)' : 'translateX(-50%)',  // Center align the button
+    };
+
+
+    const buttonClassName = isMobile ? `${styles.buttonStyle} ${styles.buttonStyleMobile}` : styles.buttonStyle;
 
     return (
         <div className={styles.pageMain}>
@@ -43,12 +73,11 @@ const Page = () => {
             </div>
             <div>
                 <Link href={"/"}>
-                    <button className={styles.buttonStyle}>
+                    <button className={buttonClassName}>
                         <p>REGISTER NOW</p>
                     </button>
                 </Link>
             </div>
-
         </div>
     );
 };

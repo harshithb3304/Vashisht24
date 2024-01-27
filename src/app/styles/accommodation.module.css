@@ -1,4 +1,4 @@
-.workshopMain {
+.accommodationMain {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,13 +6,13 @@
     min-height: 100vh/* Updated to display Simcards in a column */
 }
 
-.workshopInfo {
+.accommodationInfo {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    margin-top: -100px;
+    margin-top: 50px;
     margin-bottom: 100px;
 
 }
@@ -24,3 +24,4 @@
     flex-direction: row;
 
 }
+
