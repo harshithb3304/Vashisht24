@@ -1,11 +1,16 @@
 // components/Simcard.js
+"use client"
+
 import React from 'react';
 import styles from '../styles/simcard.module.css';
 import Image from 'next/image';
-import Link from 'next/link';
+import Link from "next/Link";
+import { simcardData } from '/src/app/workshops/page';
+
 
 const Simcard = ({ item }) => {
-    const { text, imageSrc } = item;
+    const { text, imageSrc, eventName, eventId } = item;
+
 
 
     return (
@@ -14,8 +19,8 @@ const Simcard = ({ item }) => {
                 <div className={styles.cardContainer}>
                     <div className={styles.card}>
                         <div className={styles.svgContainer}>
-                            <svg className={styles.svgOverlay} width="269" height="401" viewBox="0 0 269 401"
-                                 fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="269" height="401" viewBox="0 0 269 401" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M71.3584 391.95H206.069L214.249 400.478L156 401L153 395H110.5L107.5 401H71.3584V391.95Z"
                                     fill="#E800D2"/>
@@ -79,19 +84,27 @@ const Simcard = ({ item }) => {
                                 <rect x="198.76" y="396.823" width="45.5998" height="3.82899" rx="1.9145"
                                       fill="#E800D2"/>
                             </svg>
+
                         </div>
                         <div className={styles.cardBody}>
-                            <p className={styles.cardInfo}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <p className={styles.cardInfo}>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                {/* Remaining text */}
+                            </p>
                         </div>
                         <div className={styles.imageContainer}>
                             <Image src={imageSrc} alt={`Simcard Image`} width={100} height={100}/>
                         </div>
+                        <p className={styles.eventName}>{eventName}</p>
                         <div className={styles.textContainer}>
                             <p className={styles.cardText}>{text}</p>
                         </div>
-                        <Link href="/">
-                            <button className={styles.cardButton}>REGISTER NOW</button>
+                        <Link href={`/events/${eventId}`}>
+                        <button className={styles.cardButton} >
+                            REGISTER NOW
+                        </button>
                         </Link>
+
                     </div>
                 </div>
             </div>

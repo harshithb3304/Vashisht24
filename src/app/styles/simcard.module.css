@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'VCR OSD Mono';
+    src: url('/fonts/vcr-osd-mono.ttf') format('truetype');
+}
 .cardContainer {
     position: relative;
     width: 270px;
@@ -60,11 +64,28 @@
 
 .cardText {
     padding-top: 10px;
+    margin-left: 10px;
 }
 
 .cardArrangement {
     display: flex;
     justify-content: space-between;
+}
+
+.eventName {
+    font-family: 'VCR OSD Mono', monospace;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 20px;
+
+    text-align: left;
+    text-decoration-color: #E800D2;
+    color: #E800D2;
+    display: block;
+    position: absolute;
+    bottom: 60px; /* Adjust the value as needed */
+    left: 41%;
+    transform: translateX(-50%);
 }
 
 .cardButton {
@@ -79,7 +100,7 @@
     transition: background-color 0.3s ease, transform 0.3s ease;
     position: absolute;
     bottom: 20px;
-    right: 55px;
+    right: 50px;
 }
 
 .cardButton:hover {
