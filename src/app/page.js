@@ -96,8 +96,8 @@ const Page = () => {
         <Image src="/images/background_map.png" className={styles.image15} alt="Top Left" width={1500} height={800} />
         <div className={styles.horizontal_rectangle}></div>
         <a href="https://www.google.com/maps/place/Indian+Institute+of+Information+Technology,+Design+and+Manufacturing,+Kancheepuram/@12.8379343,80.1347692,17z/data=!3m1!4b1!4m6!3m5!1s0x3a525851fbcd3b6b:0x9f1067aa71e3898e!8m2!3d12.8379343!4d80.1373441!16s%2Fm%2F04144f8?entry=ttu" className={styles.location_text} target={"_blank"}>target location</a>
-      </div>
-
+      </div> 
+ 
       <div className={styles.about_landing}>
 
         <Image src="/images/car1.png" className={styles.image13} alt="Top Left" width={100} height={100} />
