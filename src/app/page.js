@@ -11,7 +11,7 @@ const Page = () => {
     useEffect(() => {
       document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale=' + (1 / window.devicePixelRatio));
 
-      
+
     let prevScrollPos = parseInt(localStorage.getItem('scrollPosition')) || 0; // Restore previous scroll position or default to 0
     const threshold = 850; // Adjust this value to set the scrolling threshold
 
@@ -21,24 +21,24 @@ const Page = () => {
 
       const topLeftImage = document.querySelector(`.${styles.image1}`);
       const topRightImage = document.querySelector(`.${styles.image2}`);
-      const RightImage = document.querySelector(`.${styles.image4}`);
-      const LeftImage = document.querySelector(`.${styles.image3}`);
+      // const RightImage = document.querySelector(`.${styles.image4}`);
+      // const LeftImage = document.querySelector(`.${styles.image3}`);
       const heading_main_1 = document.querySelector(`.${styles.landing_heading_1}`);
       const heading_main_2 = document.querySelector(`.${styles.lending_heading_2}`);
       const Leftfloor = document.querySelector(`.${styles.image6}`);
       const Rightfloor = document.querySelector(`.${styles.image7}`);
-      const Leftm = document.querySelector(`.${styles.image8}`);
-      const Rightm = document.querySelector(`.${styles.image9}`);
+      // const Leftm = document.querySelector(`.${styles.image8}`);
+      // const Rightm = document.querySelector(`.${styles.image9}`);
 
-      if (topLeftImage && topRightImage && heading_main_1 && heading_main_2 && Leftfloor && RightImage) {
+      if (topLeftImage && topRightImage && heading_main_1 && heading_main_2 ) {
         topLeftImage.style.transform = `translate(-${currentScrollPos / 4}px, -${currentScrollPos / 4}px)`;
         topRightImage.style.transform = `translate(${currentScrollPos / 4}px, ${currentScrollPos / 4}px)`;
-        RightImage.style.transform = `translate(${currentScrollPos / 2}px)`;
-        LeftImage.style.transform = `translate(-${currentScrollPos / 2}px)`;
-        Rightfloor.style.transform = `translate(${currentScrollPos / 4}px)`;
-        Leftfloor.style.transform = `translate(-${currentScrollPos / 4}px)`;
-        Rightm.style.transform = `translate(${currentScrollPos * 1.5}px)`;
-        Leftm.style.transform = `translate(-${currentScrollPos * 1.5}px)`;
+        // RightImage.style.transform = `translate(${currentScrollPos }px)`;
+        // LeftImage.style.transform = `translate(-${currentScrollPos }px)`;
+        Rightfloor.style.transform = `translate(${currentScrollPos *1.2}px)`;
+        Leftfloor.style.transform = `translate(-${currentScrollPos *1.2}px)`;
+        // Rightm.style.transform = `translate(${currentScrollPos * 1.5}px)`;
+        // Leftm.style.transform = `translate(-${currentScrollPos * 1.5}px)`;
 
         const baseFontSize_1 = parseFloat(window.getComputedStyle(heading_main_1).fontSize);
         const baseFontSize_2 = parseFloat(window.getComputedStyle(heading_main_2).fontSize);
@@ -80,23 +80,24 @@ const Page = () => {
   return (
     <div className={styles.landing}>
       <Image src="/images/left_hand.png" className={styles.image1} alt="Top Left" width={626} height={400} />
-      <Image src="/images/floor.png" className={styles.image3} alt="Top Left" width={980} height={200} />
-      <Image src="/images/underfloor.png" className={styles.image6} alt="Top Left" width={980} height={200} />
+      {/* <Image src="/images/floor.png" className={styles.image3} alt="Top Left" width={9000} height={200} /> */}
+      <Image src="/images/floor.png" className={styles.image6} alt="Top Left" width={9000} height={450} />
       <h1 className={styles.landing_heading_1}>VASHISHT</h1>  
       <h2 className={styles.lending_heading_2}>nexus aeon</h2>
-      <Image src="/images/right_hand.png" className={styles.image2} alt="Top Right" width={626} height={400} />
-      <Image src="/images/floor.png" className={styles.image4} alt="Top Left" width={980} height={200} />
-      <Image src="/images/underfloor.png" className={styles.image7} alt="Top Left" width={980} height={200} />
-      <Image src="/images/mountain.png" className={styles.image8} alt="Top Left" width={980} height={80} />
-      <Image src="/images/mountain.png" className={styles.image9} alt="Top Left" width={980} height={80} />
+      <Image src="/images/right_hand.png" className={styles.image2} alt="Top Right" width={626} height={500} />
+      {/* <Image src="/images/floor.png" className={styles.image4} alt="Top Left" width={9000} height={400} /> */}
+      <Image src="/images/floor.png" className={styles.image7} alt="Top Left" width={9000} height={450} />
+      {/* <Image src="/images/mountain.png" className={styles.image8} alt="Top Left" width={9000} height={200} />
+      <Image src="/images/mountain.png" className={styles.image9} alt="Top Left" width={9000} height={200} /> */}
       <Image src="/images/ball.png" className={styles.image10} alt="Top Left" width={400} height={400} />
-      {/*<Image src="/images/shadow_of_orbinsky.png" className={styles.image11} alt="Top Left" width={250} height={250} />*/}
+      {/* <Image src="/images/shadow_of_orbinsky.png" className={styles.image11} alt="Top Left" width={250} height={250} /> */}
 
       <div className={styles.landing_location}>
+        <Image src="/images/background_map.png" className={styles.image15} alt="Top Left" width={1500} height={800} />
         <div className={styles.horizontal_rectangle}></div>
         <a href="https://www.google.com/maps/place/Indian+Institute+of+Information+Technology,+Design+and+Manufacturing,+Kancheepuram/@12.8379343,80.1347692,17z/data=!3m1!4b1!4m6!3m5!1s0x3a525851fbcd3b6b:0x9f1067aa71e3898e!8m2!3d12.8379343!4d80.1373441!16s%2Fm%2F04144f8?entry=ttu" className={styles.location_text} target={"_blank"}>target location</a>
-      </div>
-
+      </div> 
+ 
       <div className={styles.about_landing}>
 
         <Image src="/images/car1.png" className={styles.image13} alt="Top Left" width={100} height={100} />
@@ -105,7 +106,7 @@ const Page = () => {
 
           <h2 className={styles.about_v}>About Vashisht</h2>
         <p className={styles.paragraph_landing}>Vashisht 24 is not just an event; it is a dynamic platform designed to amplify engineering aspirations. We invite tech enthusiasts to showcase their intelligence and creativity in a highly competitive environment. Nexus Aeon aims to redefine the boundaries of imagination and technology, creating an immersive experience for all participants.</p>
-        <Image src="/images/buildings.png" className={styles.image12} alt="Top Left" width={2500} height={30} />
+        <Image src="/images/buildings.png" className={styles.image12} alt="Top Left" width={9000} height={30} />
       </div>
     </div>
   );
