@@ -374,27 +374,405 @@
   }
 
 
-@media (max-height: 850px) {
-  .image10 {
-    max-width: 100%; /* Set the maximum width to 100% */
-    height: auto;
-    position: relative;
-    overflow: hidden;
-    top: 1%;
-    left: 75%;
-    z-index: 1;
+  @media (max-width: 420px) {
+    .landing {
+      width: 100%;
+      height: 540vh;
+      overflow: hidden;
+      z-index: -1;
+    }
+    
+    .image1 {
+      max-width: 50%; /* Set the maximum width to 100% */
+      height: auto;
+      position: fixed;
+      overflow: hidden; 
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+    
+    .image2 {
+      max-width: 50%; /* Set the maximum width to 100% */
+      height: auto;
+      position: fixed;
+      overflow: hidden;
+      bottom: 0;
+      right: 0;
+      z-index: 1;
+    }
+  
+    .image3 {
+      max-width: 50%; /* Set the maximum width to 100% */
+      /* height: auto; */
+      transform: rotateY(180deg);
+      position: fixed;
+      overflow: hidden;
+      bottom: 10%;
+      left: 0;
+      z-index: 0;
+      box-shadow: 0px 4px 4px #000;
+    }
+  
+    .image4 {
+      max-width: 50%; /* Set the maximum width to 100% */
+      /* height: auto; */
+      position: fixed;
+      overflow: hidden;
+      bottom: 10%;
+      right: 0;
+      z-index: 0;
+      box-shadow: 0px 4px 4px #000;
+      /* animation: moveImage2 1s linear; */
+    }
+  
+    .image5{
+      max-width: 50%; /* Set the maximum width to 100% */
+      /* height: auto; */
+      bottom: 15%;
+      left: 10%;
+      position: relative;
+      overflow: hidden;
+      z-index: 0;
+    }
+  
+  
+    .image6 {
+      max-width: 50%; /* Set the maximum width to 100% */
+      /* height: auto; */
+      position: fixed;
+      overflow: hidden;
+      top: 73%;
+      left: 0;
+      z-index: -1;
+      box-shadow: 0px 4px 4px #000;
+      /* animation: moveImage2 1s linear; */
+    }
+  
+    .image7 {
+      max-width: 50%; /* Set the maximum width to 100% */
+      /* height: auto; */
+      position: fixed;
+      overflow: hidden;
+      top: 73%;
+      right: 0;
+      z-index: -1;
+      box-shadow: 0px 4px 4px #000;
+      /* animation: moveImage2 1s linear; */
+    }
+  
+    .image8{
+      max-width: 50%; /* Set the maximum width to 100% */
+      height: 100px;
+      position: fixed;
+      overflow: hidden;
+      top: 65%;
+      left: 0;
+      z-index: 0;
+    }
+  
+    .image9{
+      max-width: 50%; /* Set the maximum width to 100% */
+      height: 100px;
+      /* height: auto; */
+      position: fixed;
+      overflow: hidden;
+      top: 65%;
+      right: 0;
+      z-index: 0;
+    }
+  
+    .image10 {
+      max-width: 50%; /* Set the maximum width to 100% */
+      height: auto;
+      position: relative;
+      overflow: hidden; 
+      top: 5%;
+      left: 35%;
+      z-index: 1;
+      animation: parallaxAnimation 2s infinite alternate;
+    }
+  
+    .image11 {
+      max-width: 50%; /* Set the maximum width to 100% */
+      height: auto;
+      position: relative;
+      overflow: hidden; 
+      top: 1.2%;
+      left: 62%;
+      z-index: 0;
+      animation: parallaxAnimation 2s infinite alternate;
+    }
+  
+    .landing_heading_1 {
+      position: fixed;
+      color: #e800d2;
+      text-shadow: 0px 4px 4px rgba(8, 3, 5, 0.25);
+      font-family: "VCR OSD Mono",monospace;
+      font-size: 80px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      left: 50%;
+      top: 40%;
+      z-index: 2;
+      transform: translate(-50%, -50%);
+      animation: blink 2s infinite;
+    }
+    
+    .lending_heading_2 {
+      position: fixed;
+      left: 50%; /* Change from 44% to 50% for centering */
+      top: 50%;
+      z-index: 2;
+      color: #D6C1D4;
+      text-shadow: 0px 4px 4px #000;
+      font-family: "VCR OSD Mono",monospace;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      transform: translateX(-50%); /* Adjust the transform property for centering */
+      white-space: nowrap;
+      animation: blink 1.5s infinite;
+    }
+  
+  
+    
+    .horizontal_rectangle {
+      position: absolute; /* Position the rectangles absolutely within the location container */
+      top: 69%; /* Adjust the top position as needed */
+      left: 60%; /* Adjust the left position as needed */
+      width: 300px;
+      height: 4px;
+      flex-shrink: 0;
+      background: #E800D2;
+      z-index: 1; /* Ensure the rectangles appear above other content within the location container */
+      box-shadow: 0px 4px 4px #000;
+      animation: parallaxAnimation 2s infinite alternate;
+    }
+  
+  
+  
+  .landing_location {
+    /* Keep the existing styles */
+    position: absolute;
+    top: 200vh;
+    left: 10%;
+    width: 100%;
+    height: 25vh;
+    z-index: 2;
+    background-image: url('../../../public/images/background_map.png');
+    background-size: 70%;
+  
+    /* Apply the animation to create the parallax effect */
+  }
+  
+  /* Adjust the position of the text to create the parallax effect */
+  .location_text {
+    position: absolute;
+    color: #E800D2;
+    top: 57.5%; /* Adjust the positioning as needed */
+    left: 60%; /* Adjust the positioning as needed */
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 4px 4px #000;
+    font-family: "VCR OSD Mono",monospace;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    white-space: nowrap;
     animation: parallaxAnimation 2s infinite alternate;
   }
+  
+  
+  .about_landing {
+    width: 100%;
+    align-items: center;
+    position: relative; /* Change to relative positioning */
+    top: 450vh;
+    z-index: 1;
+  }
+  
+  .about_v {
+    position: relative; /* Position it absolutely within the .about_landing container */
+    top: 50%; /* Adjust the top position for centering */
+    left: 92%; /* Adjust the left position for centering */
+    transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+    color: #FFF;
+    font-family: "VCR OSD Mono",monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-shadow: 0px 4px 4px #000;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  
+  .paragraph_landing {
+    margin-right: auto;
+    margin-left: auto;
+    position: relative; /* Position it absolutely within the .about_landing container */
+    width: 200px;
+    top: 80%; /* Adjust the top position to fit your layout */
+    left: 42%; /* Adjust the left position for centering */
+    transform: translateX(-50%); /* Center horizontally */
+    color: #FFF;
+    text-align: center;
+    font-family: "Anonymous Pro",monospace;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-shadow: 0px 4px 4px #000;
+    z-index: 1;
+  }
+  .about_landing h1 {
+    position: absolute;
+    top: -40%; /* Adjust the top position for centering */
+    left: 65%;
+    bottom: 50%;/* Adjust the left position for centering */
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-family: "VCR OSD Mono", monospace;
+    font-size: 20px;  /* Adjust the font size as needed */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-shadow: 0px 4px 4px #000;
+    z-index: 1;
+  }
+  
+  .about_landing h1:hover {
+    color: #FF00FF; /* Change text color to the purple shade */
+    cursor: pointer;
+    transform: translate(-50%, -50%) scale(1.05);
+  }
+  
+  
+  
+  
+    .image12{
+      max-width: 100%; /* Set the maximum width to 100% */
+      height: 20vh;
+      top: 150%;
+      position: absolute;
+      overflow: hidden; 
+      left: 0;
+      z-index: 1;
+      animation: parallaxAnimation 2s infinite alternate;
+    }
+  
+    .image13{
+      max-width: 40%; /* Set the maximum width to 100% */
+      height: auto;
+      position: absolute;
+      overflow: hidden; 
+      top: 90%;
+      left: 55%;
+      z-index: 1;
+      animation: flyAnimation 5s linear infinite;
+    }
+  
+    .image14{
+      max-width: 40%; /* Set the maximum width to 100% */
+      height: auto;
+      position: absolute;
+      overflow: hidden; 
+      left: 55%;
+      z-index: 1;
+      animation: flyAnimation1 4s linear infinite;
+    }
+  }
 
-  .image11 {
-    max-width: 100%; /* Set the maximum width to 100% */
+@media (-webkit-device-pixel-ratio: 1.25) {
+
+.landing {
+    width: 100%;
+    height: 670vh;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .image1 {
+    max-width: 80%; /* Set the maximum width to 100% */
     height: auto;
+    position: fixed;
+    overflow: hidden; 
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .image2 {
+    max-width: 80%; /* Set the maximum width to 100% */
+    height: auto;
+    position: fixed;
+    overflow: hidden;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  .image3 {
+    max-width: 50%; /* Set the maximum width to 100% */
+    /* height: auto; */
+    transform: rotateY(180deg);
+    position: fixed;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    box-shadow: 0px 4px 4px #000;
+  }
+
+  .image4 {
+    max-width: 50%; /* Set the maximum width to 100% */
+    /* height: auto; */
+    position: fixed;
+    overflow: hidden;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    box-shadow: 0px 4px 4px #000;
+    /* animation: moveImage2 1s linear; */
+  }
+
+  .image5{
+    max-width: 50%; /* Set the maximum width to 100% */
+    /* height: auto; */
+    top: 80%;
+    left: 10%;
     position: relative;
     overflow: hidden;
-    top: 1.2%;
-    left: 59%;
     z-index: 0;
-    animation: parallaxAnimation 2s infinite alternate;
+  }
+
+
+  .image6 {
+    max-width: 50%; /* Set the maximum width to 100% */
+    /* height: auto; */
+    position: fixed;
+    overflow: hidden;
+    top: 80%;
+    left: 0;
+    z-index: -1;
+    animation: blink 2s infinite;
+    box-shadow: 0px 4px 4px #000;
+    /* animation: moveImage2 1s linear; */
+  }
+
+  .image7 {
+    max-width: 50%; /* Set the maximum width to 100% */
+    /* height: auto; */
+    position: fixed;
+    overflow: hidden;
+    top: 80%;
+    right: 0;
+    z-index: -1;
+    box-shadow: 0px 4px 4px #000;
+    /* animation: moveImage2 1s linear; */
   }
 
   .image8{
@@ -402,7 +780,7 @@
     /* height: auto; */
     position: fixed;
     overflow: hidden;
-    top: 60%;
+    top: 67%;
     left: 0;
     z-index: -1;
   }
@@ -412,177 +790,189 @@
     /* height: auto; */
     position: fixed;
     overflow: hidden;
-    top: 60%;
+    top: 67%;
     right: 0;
     z-index: -1;
   }
 
-  .image3{
+  .image10 {
     max-width: 100%; /* Set the maximum width to 100% */
-    /* height: auto; */
-    position: fixed;
-    overflow: hidden;
-    top: 76%;
-    left: 0;
-    z-index: 0;
+    height: auto;
+    position: relative;
+    overflow: hidden; 
+    top: 1%;
+    left: 65%;
+    z-index: 1;
+    animation: parallaxAnimation 2s infinite alternate;
   }
 
-  .image4{
+  .image11 {
     max-width: 100%; /* Set the maximum width to 100% */
-    /* height: auto; */
-    position: fixed;
-    overflow: hidden;
-    top: 76%;
-    right: 0;
+    height: auto;
+    position: relative;
+    overflow: hidden; 
+    top: 1.2%;
+    left: 59%;
     z-index: 0;
-  }
-}
-  @media (max-width: 1800px) {
-    .landing{
-      height: 520vh;
-    }
-    .image2 {
-      max-width: 50%;
-    }
-    .image1 {
-      max-width: 50%;
-    }
-
-    .image3{
-      max-width: 50%;
-      max-height: 100%;
-    }
-
-    .image4{
-      max-width: 50%;
-      max-height: 100%;
-    }
-
-    .image5{
-      max-width: 50%;
-      max-height: 100%;
-    }
-
-    .image6{
-      max-width: 50%;
-      max-height: 100%;
-    }
-
-    .image7{
-      max-width: 50%;
-      max-height: 100%;
-    }
-
-    .image8{
-      top: 70%;
-      width: 50%;
-      max-height: 100%;
-    }
-    .image9{
-      top: 70%;
-      width: 50%;
-      max-height: 100%;
-    }
-    .image10{
-      max-width: 30%;
-      top: 5%;
-      left: 65%;
-      max-height: 100%;
-    }
-    .image11{
-      top: 5%;
-      left: 37%;
-      max-width: 30%;
-      max-height: 100%;
-    }
-
-    .landing_heading_1{
-      font-size: 70px;
-    }
-
-    .location_text{
-      top: 55%;
-      font-size: 25px;
-      white-space: nowrap;
-    }
-
-    .landing_location{
-      height: 50vh;
-      background-size: 100%;
-      left: 5%;
-    }
-
-    .about_landing{
-      font-size: 5px;
-      top: 450vh;
-      width: 100%;
-    }
-
-    .about_v{
-      top: 5%;
-    }
-
-    .paragraph_landing{
-      left: 70%;
-      font-size: 15px;
-      width: 100%;
-    }
-
-  }
-@media (max-width: 768px) {
-  .landing {
-    height: 720vh; /* Adjust the height as needed */
-  }
-
-  .image1, .image2 {
-    max-width: 100%;
-  }
-
-  .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image13, .image14 {
-    max-width: 100%;
-    max-height: 100%;
+    animation: parallaxAnimation 2s infinite alternate;
   }
 
   .landing_heading_1 {
-    font-size: 50px; /* Adjust the font size as needed */
+    position: fixed;
+    color: #e800d2;
+    text-shadow: 0px 4px 4px rgba(8, 3, 5, 0.25);
+    font-family: "VCR OSD Mono";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 50%;
+    top: 40%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    animation: blink 2s infinite;
   }
-
+  
   .lending_heading_2 {
-    font-size: 25px; /* Adjust the font size as needed */
+    position: fixed;
+    left: 50%; /* Change from 44% to 50% for centering */
+    top: 50%;
+    z-index: 2;
+    color: #D6C1D4;
+    text-shadow: 0px 4px 4px #000;
+    font-family: "VCR OSD Mono";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transform: translateX(-50%); /* Adjust the transform property for centering */
+    white-space: nowrap;
+    animation: blink 1.5s infinite;
   }
 
+
+  
   .horizontal_rectangle {
-    width: 60%; /* Adjust the width as needed */
+    position: absolute; /* Position the rectangles absolutely within the location container */
+    top: 62%; /* Adjust the top position as needed */
+    left: 60%; /* Adjust the left position as needed */
+    width: 338px;
+    height: 8px;
+    flex-shrink: 0;
+    background: #E800D2;
+    z-index: 1; /* Ensure the rectangles appear above other content within the location container */
+    box-shadow: 0px 4px 4px #000;
+    animation: parallaxAnimation 2s infinite alternate;
   }
 
-  .landing_location {
-    height: 60vh; /* Adjust the height as needed */
+
+
+.landing_location {
+  /* Keep the existing styles */
+  position: absolute;
+  top: 400vh;
+  left: 0;
+  width: 100%;
+  height: 120vh;
+  z-index: 2;
+  background-image: url('../../../public/images/background_map.png');
+  background-size: 90%;
+
+  /* Apply the animation to create the parallax effect */
+}
+
+/* Adjust the position of the text to create the parallax effect */
+.location_text {
+  position: absolute;
+  color: #E800D2;
+  top: 57.5%; /* Adjust the positioning as needed */
+  left: 60%; /* Adjust the positioning as needed */
+  transform: translate(-50%, -50%);
+  text-shadow: 0px 4px 4px #000;
+  font-family: "VCR OSD Mono";
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  animation: parallaxAnimation 2s infinite alternate;
+}
+
+
+.about_landing {
+  width: 100%;
+  align-items: center;
+  position: relative; /* Change to relative positioning */
+  top: 550vh;
+  z-index: 1;
+}
+
+.about_v {
+  position: relative; /* Position it absolutely within the .about_landing container */
+  top: 50%; /* Adjust the top position for centering */
+  left: 92%; /* Adjust the left position for centering */
+  transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+  color: #FFF;
+  font-family: "VCR OSD Mono";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-shadow: 0px 4px 4px #000;
+  z-index: 1;
+}
+
+.paragraph_landing {
+  position: relative; /* Position it absolutely within the .about_landing container */
+  width: 807px;
+  top: 80%; /* Adjust the top position to fit your layout */
+  left: 50%; /* Adjust the left position for centering */
+  transform: translateX(-50%); /* Center horizontally */
+  color: #FFF;
+  text-align: center;
+  font-family: "Anonymous Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-shadow: 0px 4px 4px #000;
+  z-index: 1;
+}
+
+
+
+
+  .image12{
+    max-width: 100%; /* Set the maximum width to 100% */
+    height: auto;
+    top: 150%;
+    position: absolute;
+    overflow: hidden; 
+    left: 0;
+    z-index: 1;
+    animation: parallaxAnimation 2s infinite alternate;
   }
 
-  .location_text {
-    top: 45%; /* Adjust the top position as needed */
-    font-size: 20px; /* Adjust the font size as needed */
+  .image13{
+    max-width: 100%; /* Set the maximum width to 100% */
+    height: auto;
+    position: absolute;
+    overflow: hidden; 
+    top: 90%;
+    left: 55%;
+    z-index: 1;
+    animation: flyAnimation 5s linear infinite;
   }
 
-  .about_landing {
-    top: 650vh; /* Adjust the top position as needed */
+  .image14{
+    max-width: 100%; /* Set the maximum width to 100% */
+    height: auto;
+    position: absolute;
+    overflow: hidden; 
+    left: 55%;
+    z-index: 1;
+    animation: flyAnimation1 4s linear infinite;
   }
 
-  .about_v {
-    font-size: 20px; /* Adjust the font size as needed */
-  }
-
-  .paragraph_landing {
-    font-size: 16px; /* Adjust the font size as needed */
-  }
-
-  .about_landing h1 {
-    font-size: 40px; /* Adjust the font size as needed */
-  }
-
-  .about_landing h1:hover {
-    transform: translate(-50%, -50%) scale(1.1);
-  }
 }
 
 
