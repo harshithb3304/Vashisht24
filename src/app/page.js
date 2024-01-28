@@ -9,6 +9,9 @@ const Page = () => {
 
 
     useEffect(() => {
+      document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale=' + (1 / window.devicePixelRatio));
+
+      
     let prevScrollPos = parseInt(localStorage.getItem('scrollPosition')) || 0; // Restore previous scroll position or default to 0
     const threshold = 850; // Adjust this value to set the scrolling threshold
 
