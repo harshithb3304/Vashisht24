@@ -2,6 +2,7 @@
 import React from 'react';
 import styles from '@/app/styles/events.module.css';
 import Simcard from '/src/app/(components)/simcard';
+import Navbar from "@/app/(components)/navbar";
 
 const Page = () => {
     const simcardData = [
@@ -41,6 +42,7 @@ const Page = () => {
     };
     return (
         <main className={styles.eventsMain}>
+            <Navbar/>
             <div className={styles.eventsInfo}>
                 <div style={headingStyles}>EVENTS</div>
                 <div style={contentStyles}>

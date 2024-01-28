@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: flex-end;
     padding-top: 10px;
+    margin-bottom: 40px;
 
 }
 
@@ -100,6 +101,7 @@
         text-align: center;
         order: 2;
         margin-right: auto;
+        margin-left: auto;
         position: absolute;
         top: 22px; /* Adjust the top position */
         left: 50%;
@@ -131,6 +133,7 @@
         order: 2;
         margin-right: auto;
         position: absolute;
+        margin-left: auto;
         top: 14px; /* Adjust the top position */
         left: 50%;
         transform: translateX(-350%);
