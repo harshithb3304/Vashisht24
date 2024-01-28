@@ -1,6 +1,6 @@
 .cardContainer {
     position: relative;
-    width: 300px;
+    width: 270px;
     height: 400px;
     background-color: transparent;
     border-radius: 10px;
@@ -79,7 +79,7 @@
     transition: background-color 0.3s ease, transform 0.3s ease;
     position: absolute;
     bottom: 20px;
-    right: 75px;
+    right: 55px;
 }
 
 .cardButton:hover {
