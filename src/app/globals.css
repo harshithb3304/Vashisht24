@@ -2,7 +2,7 @@
     background: linear-gradient(to bottom, rgb(9, 21, 151) 0.001%, #0E033B 99.999% );
 } */
 
- .circles{
+.circles{
     position: absolute;
     top: 0;
     left: 0;
@@ -21,7 +21,7 @@
     background: rgba(234, 7, 155, 0.893);
     animation: animate 20s linear infinite;
     bottom: -150px;
-    
+
 }
 
 .circles li:nth-child(1){
@@ -126,7 +126,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-} */ 
+} */
 
 body {
     margin: auto;
