@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'VCR OSD Mono';
+    src: url('/font/vcr-osd-mono.ttf') format('truetype');
+}
+
+.eventName {
+    font-family: 'VCR OSD Mono', monospace;
+    font-size: 3.125rem; /* 50px converted to rem */
+    font-weight: 400;
+    line-height: 1.25rem; /* 20px converted to rem */
+    letter-spacing: 0;
+    text-align: center;
+    width: 50.4375rem; /* 807px converted to rem */
+    height: 6.25rem; /* 100px converted to rem */
+    left: 14.75rem; /* 236px converted to rem */
+    text-decoration-color: #E800D2;
+    color: #E800D2;
+    display: block;
+    margin-top: 1.875rem; /* 30px converted to rem */
+}
+
+.eventContent,
+.eventContent1 {
+    font-family: 'VCR OSD Mono', monospace;
+    font-size: 1.25rem; /* 20px converted to rem */
+    font-weight: 400;
+    line-height: 1.25rem; /* 20px converted to rem */
+    letter-spacing: 0;
+    text-align: center;
+    width: 50.4375rem; /* 807px converted to rem */
+    height: 6.25rem; /* 100px converted to rem */
+    top: 12.5rem; /* 200px converted to rem */
+    left: 14.75rem; /* 236px converted to rem */
+    text-decoration-color: #ffffff;
+    color: #ffffff;
+    display: block;
+    margin-top: 0.625rem; /* 10px converted to rem */
+}
+
+.navBar {
+    padding: 3.75rem; /* 60px converted to rem */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image {
+    margin-top: -6.25rem; /* 100px converted to rem */
+}
+
+.registerButton {
+    font-family: 'VCR OSD Mono', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.9375rem 1.5625rem; /* 15px 25px converted to rem */
+    background-color: #E800D2;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 0.0625rem solid #E800D2; /* 1px converted to rem */
+    width: 11.25rem; /* 180px converted to rem */
+    height: 3.75rem; /* 60px converted to rem */
+    border-radius: 1.46875rem; /* 23.5px converted to rem */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: relative;
+    bottom: -20%;
+}
+
+.registerButton:hover {
+    background-color: #FF00FF;
+    cursor: pointer;
+    transform: translateY(-0.3125rem); /* -5px converted to rem */
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.3); /* 10px converted to rem */
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 10.25rem; /* 100px converted to rem */
+    margin-top: -1.875rem; /* -30px converted to rem */
+}
+
+.prizeInfo {
+    color: #e800d2;
+}
+
+@media (min-width: 48rem) {
+    .eventName {
+        font-size: 3.125rem; /* 50px converted to rem */
+        width: 50.4375rem; /* 807px converted to rem */
+        margin-top: 1.875rem; /* 30px converted to rem */
+    }
+
+    .eventContent,
+    .eventContent1 {
+        font-size: 1.25rem; /* 20px converted to rem */
+        width: 50.4375rem; /* 807px converted to rem */
+        margin-top: 0.625rem; /* 10px converted to rem */
+        margin-bottom: 0.625rem; /* 10px converted to rem */
+    }
+
+    .registerButton {
+        /*padding: 0.9375rem 1.5625rem; !* 15px 25px converted to rem *!*/
+        width: 11.25rem; /* 180px converted to rem */
+        height: 3.75rem; /* 60px converted to rem */
+        /*left: 55rem; !* Adjust this value based on your design *!*/
+        /*margin-top: -1.875rem; !* -30px converted to rem *!*/
+        /*position: relative;*/
+        /*vertical-align: top;*/
+        /*bottom: -100%;*/
+    }
+
+    .buttonContainer {
+        padding-bottom: 6.25rem; /* 100px converted to rem */
+        margin-top: -1.875rem; /* -30px converted to rem */
+    }
+}

@@ -9,7 +9,7 @@ import { simcardData } from '/src/app/workshops/page';
 
 
 const Simcard = ({ item }) => {
-    const { text, imageSrc, eventName, eventId } = item;
+    const { text, imageSrc, eventName, eventId ,eventPrize,eventDate,eventTime} = item;
 
 
 
