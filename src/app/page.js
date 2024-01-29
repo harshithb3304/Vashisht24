@@ -43,7 +43,7 @@ const Page = () => {
         const baseFontSize_1 = parseFloat(window.getComputedStyle(heading_main_1).fontSize);
         const baseFontSize_2 = parseFloat(window.getComputedStyle(heading_main_2).fontSize);
 
-        const scrollFactor = 0.5;
+        const scrollFactor = 0.8;
 
         const scrollDiff = Math.abs(currentScrollPos - prevScrollPos);
 
@@ -79,6 +79,7 @@ const Page = () => {
 
   return (
     <div className={styles.landing}>
+       
       <Image src="/images/left_hand.png" className={styles.image1} alt="Top Left" width={626} height={400} />
       {/* <Image src="/images/floor.png" className={styles.image3} alt="Top Left" width={9000} height={200} /> */}
       <Image src="/images/floor.png" className={styles.image6} alt="Top Left" width={9000} height={450} />
@@ -102,6 +103,7 @@ const Page = () => {
 
         <Image src="/images/car1.png" className={styles.image13} alt="Top Left" width={100} height={100} />
         <Image src="/images/car2.png" className={styles.image14} alt="Top Left" width={150} height={120} />
+        <Image src="/images/arrow.png" className={styles.image16} alt="Top Left" width={400} height={400} />
           <Link href={"/workshops"}><h1>Embark on the Evolutionary Odyssey: Tech Through Time  </h1></Link>
 
           <h2 className={styles.about_v}>About Vashisht</h2>

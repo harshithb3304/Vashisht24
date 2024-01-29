@@ -15,6 +15,24 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div className="inner_retangle_main">
 
+
+        <ul class="circles">
+                <li></li>
+                <li></li> 
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+        </ul>
+
+       <div class="wave"></div>
+       <div class="wave"></div>
+       <div class="wave"></div>
+
           {children}
         </div>
       </body>
