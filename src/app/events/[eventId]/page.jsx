@@ -3,6 +3,8 @@ import Image from 'next/image';
 import { simcardData } from '/src/app/workshops/page';
 import {events} from "@/app/events/page";
 import {accommodationData} from "@/app/accommodation/page";
+import {talkData} from "@/app/talks/page";
+import {storeData} from "@/app/store/page";
 import styles from "/src/app/styles/[eventId].module.css";
 import Navbar from "@/app/(components)/navbar";
 import Link from "next/link";
@@ -13,7 +15,7 @@ const EventDetails = ({ params }) => {
     // const event = simcardData.find((item) => item.eventId === eventId);
     // const eventsEventData = events.find((item) => item.eventId === eventId);
     const eventId = params.eventId;
-    const combinedData = [...simcardData, ...events, ...accommodationData];
+    const combinedData = [...simcardData, ...events, ...accommodationData, ...talkData, ...storeData];
     const event = combinedData.find(item => item.eventId === eventId);
 
     return (
@@ -49,7 +51,7 @@ const EventDetails = ({ params }) => {
 };
 
 export async function generateStaticParams() {
-    const combinedData = [...simcardData, ...events, ...accommodationData];
+    const combinedData = [...simcardData, ...events, ...accommodationData, ...talkData, ...storeData];
     const paths = combinedData.map(event => ({ eventId: event.eventId }));
     return paths;
     // const paths = simcardData.map(event => ( { eventId: event.eventId } ));
