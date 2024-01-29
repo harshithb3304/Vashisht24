@@ -4,7 +4,7 @@
 import React from 'react';
 import styles from '../styles/simcard.module.css';
 import Image from 'next/image';
-import Link from "next/Link";
+import Link from "next/link";
 import { simcardData } from '/src/app/workshops/page';
 
 

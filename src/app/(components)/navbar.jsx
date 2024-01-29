@@ -25,7 +25,12 @@ const Navbar = () => {
     return (
         <main>
             <div className={styles.container}>
-
+    
+                <button className={`${styles.hamburgerIcon} ${isMobileMenuOpen ? styles.mobileView : ''}`}
+                            onClick={toggleMobileMenu}>
+                        {isMobileMenuOpen ? '✕' : '☰'}
+                </button>
+    
                 <div className={styles.vashishtlogo}>
                     <Link href="/">
                         <Image src="/images/VashishtLogo.png" alt="Logo" width={60} height={60}/>
@@ -35,10 +40,7 @@ const Navbar = () => {
                 <div className={`${styles.nav} ${isMobileMenuOpen ? styles.mobileMenuOpen : ''}`}>
 
 
-                    <button className={`${styles.hamburgerIcon} ${isMobileMenuOpen ? styles.mobileView : ''}`}
-                            onClick={toggleMobileMenu}>
-                        {isMobileMenuOpen ? '✕' : '☰'}
-                    </button>
+                    
 
                     <div className={styles.navbarArrangement}>
                         <Link href={"/workshops"} style={linkStyles}>
@@ -63,7 +65,6 @@ const Navbar = () => {
                         <Image src="/images/NexusAeonBnW.png" alt="LogoNexus" width={60} height={60}/>
                     </Link>
                 </div>
-
             </div>
         </main>
     );

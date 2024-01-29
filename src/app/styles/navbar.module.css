@@ -94,6 +94,7 @@
         flex-direction: column;
         align-items: center;
         background-color: transparent;
+        margin-bottom: 0;
     }
 
     .vashishtlogo {
@@ -109,11 +110,11 @@
     }
 
     .nav {
-        flex-direction: row-reverse;
         border: none;
         border-radius: 0;
         padding: 0;
         width: auto;
+        transition: margin 0.5s;
     }
 
     .navbarArrangement {
@@ -141,19 +142,28 @@
 
     .hamburgerIcon {
         display: block;
+        background-color: transparent;
+        color: white;
+        border: 2px solid transparent;
         font-size: 24px;
         cursor: pointer;
         backface-visibility: hidden;
-        margin-left: auto;
         margin-top: 10px; /* Adjust the top margin */
-        top: 25px;
-        right: 10px;
         position: absolute;
+        order: 2;
+        top: 20px;
+        left: 50%;
+        transform: translateX(350%);
         z-index: 1001; /* Ensure the hamburger icon is above the dropdown */
     }
 
     .hamburgerIcon.mobileView {
         background-color: transparent;
+        color: white;
+        font-size: 26px;
+        border: 2px solid transparent;
+        border-radius: 2px;
+        padding: 1px 6px;
     }
 
     .nav:not(.mobileMenuOpen) .navbarArrangement {
@@ -162,17 +172,25 @@
 
     .mobileMenuOpen {
         display: flex;
-        flex-direction: column;
+        flex-flow: row wrap;
         align-items: center;
-        position: fixed; /* Change to fixed position */
-        top: 18%; /* Position at the vertical center of the viewport */
+        position: static;
+        border: none;
+        box-shadow: none;
+        margin-top: 100px;
+        height: 100%;
+        top:0;
         left: 50%; /* Position at the horizontal center of the viewport */
-        transform: translate(-50%, -50%); /* Center the menu */
-        z-index: 1000;
+        /* Center the menu */
+        z-index: 0;
+        transition: margin 0.5s;
+        overflow: hidden;
     }
 
     .hamburgerIcon::after,
-    .hamburgerIcon::before {
+    .hamburgerIcon::before,
+    .hamburgerIcon.mobileView::after
+    .hamburgerIcon.mobileView::before {
         content: '';
         display: block;
         position: absolute;
@@ -180,11 +198,13 @@
         width: 20px;
     }
 
-    .hamburgerIcon::after {
+    .hamburgerIcon::after,
+    .hamburgerIcon.mobileView::after {
         transform: rotate(45deg);
     }
 
-    .hamburgerIcon::before {
+    .hamburgerIcon::before,
+    .hamburgerIcon.mobileView::before {
         transform: rotate(-45deg);
     }
 
