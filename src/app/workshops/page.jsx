@@ -4,42 +4,52 @@ import styles from '@/app/styles/workshops.module.css';
 import Simcard from '/src/app/(components)/simcard';
 import Navbar from "@/app/(components)/navbar";
 
+const simcardData = [
+    {
+        eventId: 'workshop1',
+        eventName: 'WORKSHOP 1',
+        imageSrc: '/images/ball.png',
+        eventInfo: 'Join us for an introductory workshop on React. Learn the basics and get started with building web applications.',
+    },
+    {
+        eventId: 'workshop2',
+        eventName: 'WORKSHOP 2',
+        imageSrc: '/images/ball.png',
+        eventInfo: 'Explore advanced CSS techniques and best practices. Dive into responsive design, animations, and more.',
+    },
+    // Add more simcard data as needed
+];
+
+const headingStyles = {
+    fontFamily: 'VCR OSD Mono, monospace',
+    fontSize: '30px',
+    fontWeight: 400,
+    lineHeight: '20px',
+    letterSpacing: '0em',
+    textAlign: 'left',
+    textDecorationColor: '#FFFFFF',
+    color: '#FFFFFF',
+    display: 'block',
+};
+
+const contentStyles = {
+    fontFamily: 'Anonymous Pro, monospace',
+    fontSize: '20px',
+    fontWeight: '400',
+    lineHeight: '20px',
+    letterSpacing: '0e',
+    textAlign: 'center',
+    width: '807px',
+    height: '100px',
+    top: '248px',
+    left: '236px',
+    textDecorationColor: '#FFFFFF',
+    color: '#FFFFFF',
+    display: 'block',
+    marginTop: '30px',
+};
+
 const Page = () => {
-    const simcardData = [
-        { text: 'WORKSHOP 1', imageSrc: '/images/NexusAeonBlack.png' },
-        { text: 'WORKSHOP 2', imageSrc: '/images/NexusAeonBnW.png' },
-        { text: 'WORKSHOP 3', imageSrc: '/images/NexusAeonWhite.png' },
-    ];
-    const headingStyles = {
-        fontFamily: 'VCR OSD Mono, monospace',
-        fontSize: '30px',
-        fontWeight: 400,
-        lineHeight: '20px',
-        letterSpacing: '0em',
-        textAlign: 'left',
-        textDecorationColor: '#FFFFFF',
-        color: '#FFFFFF',
-        display: 'block',
-
-    };
-
-    const contentStyles = {
-        fontFamily: 'Anonymous Pro, monospace',
-        fontSize: '20px',
-        fontWeight: '400',
-        lineHeight: '20px',
-        letterSpacing: '0e',
-        textAlign: 'center',
-        width: '807px',
-        height: '100px',
-        top: '248px',
-        left: '236px',
-        textDecorationColor: '#FFFFFF',
-        color: '#FFFFFF',
-        display: 'block',
-        marginTop: '30px'
-
-    };
     return (
         <main className={styles.workshopMain}>
             <Navbar/>
@@ -51,7 +61,7 @@ const Page = () => {
             </div>
             <div className={styles.cardLayout}>
                 {simcardData.map((item, index) => (
-                    <Simcard key={index} item={item} />
+                    <Simcard key={item.eventId} item={item} />
                 ))}
             </div>
         </main>
@@ -59,3 +69,4 @@ const Page = () => {
 };
 
 export default Page;
+export { simcardData };
