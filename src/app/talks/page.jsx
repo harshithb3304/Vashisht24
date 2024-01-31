@@ -23,6 +23,42 @@ const talkData = [
         eventDate : "16th February 2024",
         eventTime : "10:00 PM",
     },
+    {
+        eventId: 'talk3',
+        eventName: 'TALK 3',
+        imageSrc: '/images/ball.png',
+        eventInfo: 'Explore advanced CSS techniques and best practices. Dive into responsive design, animations, and more.',
+        eventPrize: "₹20000000",
+        eventDate : "16th February 2024",
+        eventTime : "10:00 PM",
+    },
+    {
+        eventId: 'talk4',
+        eventName: 'TALK 4',
+        imageSrc: '/images/ball.png',
+        eventInfo: 'Explore advanced CSS techniques and best practices. Dive into responsive design, animations, and more.',
+        eventPrize: "₹20000000",
+        eventDate : "16th February 2024",
+        eventTime : "10:00 PM",
+    },
+    {
+        eventId: 'talk5',
+        eventName: 'TALK 5',
+        imageSrc: '/images/ball.png',
+        eventInfo: 'Explore advanced CSS techniques and best practices. Dive into responsive design, animations, and more.',
+        eventPrize: "₹20000000",
+        eventDate : "16th February 2024",
+        eventTime : "10:00 PM",
+    },
+    {
+        eventId: 'talk6',
+        eventName: 'TALK 6',
+        imageSrc: '/images/ball.png',
+        eventInfo: 'Explore advanced CSS techniques and best practices. Dive into responsive design, animations, and more.',
+        eventPrize: "₹20000000",
+        eventDate : "16th February 2024",
+        eventTime : "10:00 PM",
+    },
     // Add more simcard data as needed
 ];
 const Page = () => {

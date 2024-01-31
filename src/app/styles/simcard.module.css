@@ -9,9 +9,10 @@
     background-color: transparent;
     border-radius: 10px;
     overflow: hidden;
-    margin: 0 30px;
+    margin: 30px 30px;
     display: flex;
     flex-direction: column;
+
 }
 
 .card {
@@ -40,6 +41,7 @@
     justify-content: center;
     transition: right 2s ease, background 2s ease;
     overflow-y: auto;
+    
 
 }
 
