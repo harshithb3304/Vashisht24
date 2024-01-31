@@ -99,13 +99,14 @@ const Simcard = ({ item }) => {
                         <div className={styles.textContainer}>
                             <p className={styles.cardText}>{text}</p>
                         </div>
-                        <Link href={`/events/${eventId}`}>
+                        
+
+                    </div>
+                    <Link href={`/events/${eventId}`}>
                         <button className={styles.cardButton} >
                             REGISTER NOW
                         </button>
-                        </Link>
-
-                    </div>
+                    </Link>
                 </div>
             </div>
         </main>
