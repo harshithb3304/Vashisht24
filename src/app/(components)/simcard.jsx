@@ -88,8 +88,11 @@ const Simcard = ({ item }) => {
                         </div>
                         <div className={styles.cardBody}>
                             <p className={styles.cardInfo}>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                {/* Remaining text */}
+                                {eventDate}
+                                <br/>
+                                {eventTime}
+                                <br/>
+                                {eventPrize}
                             </p>
                         </div>
                         <div className={styles.imageContainer}>
