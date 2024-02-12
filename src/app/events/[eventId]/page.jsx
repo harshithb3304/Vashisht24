@@ -8,6 +8,7 @@ import {storeData} from "@/app/store/page";
 import styles from "/src/app/styles/[eventId].module.css";
 import Navbar from "@/app/(components)/navbar";
 import Link from "next/link";
+import Footer from "@/app/(components)/footer";
 
 
 const EventDetails = ({ params }) => {
@@ -44,6 +45,7 @@ const EventDetails = ({ params }) => {
                     </button>
                 </Link>
             </div>
+            <Footer/>
 
 
         </main>

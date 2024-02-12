@@ -3,6 +3,7 @@ import React from 'react';
 import styles from '@/app/styles/events.module.css';
 import Simcard from '/src/app/(components)/simcard';
 import Navbar from "@/app/(components)/navbar";
+import Footer from "@/app/(components)/footer";
 const events = [
     {
         eventId: 'event1',
@@ -108,6 +109,7 @@ const Page = () => {
                     <Simcard key={index.eventId} item={item} />
                 ))}
             </div>
+            <Footer/>
         </main>
     );
 };

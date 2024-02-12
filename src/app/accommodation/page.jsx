@@ -3,6 +3,7 @@ import React from 'react';
 import styles from '@/app/styles/accommodation.module.css';
 import Simcard from '/src/app/(components)/simcard';
 import Navbar from "@/app/(components)/navbar";
+import Footer from "@/app/(components)/footer";
 
 const accommodationData = [
     {
@@ -72,6 +73,7 @@ const Page = () => {
                     <Simcard key={index} item={item} />
                 ))}
             </div>
+            <Footer/>
         </main>
     );
 };

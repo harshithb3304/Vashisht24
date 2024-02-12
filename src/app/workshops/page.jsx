@@ -3,6 +3,7 @@ import React from 'react';
 import styles from '@/app/styles/workshops.module.css';
 import Simcard from '/src/app/(components)/simcard';
 import Navbar from "@/app/(components)/navbar";
+import Footer from "@/app/(components)/footer";
 
 const simcardData = [
     {
@@ -136,6 +137,9 @@ const Page = () => {
                     <Simcard key={item.eventId} item={item}/>
                 ))}
             </div>
+
+            <Footer/>
+
 
 
         </main>
