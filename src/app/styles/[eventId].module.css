@@ -35,6 +35,7 @@
     color: #ffffff;
     display: block;
     margin-top: 0.625rem; /* 10px converted to rem */
+    margin-bottom: 3rem;
 }
 
 .navBar {
@@ -68,7 +69,7 @@
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
     position: relative;
-    bottom: -20%;
+    bottom: 0%;
 }
 
 .registerButton:hover {
@@ -84,41 +85,43 @@
     justify-content: center;
     flex-direction: column;
     padding-bottom: 10.25rem; /* 100px converted to rem */
-    margin-top: -1.875rem; /* -30px converted to rem */
+    margin-top: 3 rem; /* -30px converted to rem */
 }
 
 .prizeInfo {
     color: #e800d2;
 }
 
-@media (min-width: 48rem) {
+/* CSS for mobile view */
+@media (max-width: 767px) {
     .eventName {
-        font-size: 3.125rem; /* 50px converted to rem */
-        width: 50.4375rem; /* 807px converted to rem */
-        margin-top: 1.875rem; /* 30px converted to rem */
+      font-size: 2rem; /* Adjust font size for mobile */
+      width: auto; /* Allow width to adjust based on content */
+      margin-left: 1rem; /* Adjust margin for better alignment */
+      margin-right: 1rem; /* Adjust margin for better alignment */
     }
-
+  
     .eventContent,
     .eventContent1 {
-        font-size: 1.25rem; /* 20px converted to rem */
-        width: 50.4375rem; /* 807px converted to rem */
-        margin-top: 0.625rem; /* 10px converted to rem */
-        margin-bottom: 0.625rem; /* 10px converted to rem */
+      font-size: 1rem; /* Adjust font size for mobile */
+      width: auto; /* Allow width to adjust based on content */
+      margin-top: 0.5rem; /* Adjust top margin for better spacing */
+      margin-bottom: 1.5rem; /* Increase bottom margin for better spacing */
+      text-align: left; /* Align content to the left */
+      margin-left: 1rem;
     }
-
+  
     .registerButton {
-        /*padding: 0.9375rem 1.5625rem; !* 15px 25px converted to rem *!*/
-        width: 11.25rem; /* 180px converted to rem */
-        height: 3.75rem; /* 60px converted to rem */
-        /*left: 55rem; !* Adjust this value based on your design *!*/
-        /*margin-top: -1.875rem; !* -30px converted to rem *!*/
-        /*position: relative;*/
-        /*vertical-align: top;*/
-        /*bottom: -100%;*/
+      width: auto; /* Allow width to adjust based on content */
+      margin-top: 2rem; /* Increase top margin for better spacing */
+      margin-bottom: 2rem; /* Increase bottom margin for better spacing */
+      padding: 0.5rem 1rem; /* Adjust padding for smaller button */
+      font-size: 1rem; /* Adjust font size for mobile */
+      border-radius: 0.5rem; /* Adjust border radius for smaller button */
     }
-
+  
     .buttonContainer {
-        padding-bottom: 6.25rem; /* 100px converted to rem */
-        margin-top: -1.875rem; /* -30px converted to rem */
+      padding-bottom: 5rem; /* Adjust bottom padding for better spacing */
     }
-}
+  }
+  
