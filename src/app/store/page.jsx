@@ -32,42 +32,12 @@ const Page = () => {
         { text: 'WORKSHOP 2', imageSrc: '/images/NexusAeonBnW.png' },
         { text: 'WORKSHOP 3', imageSrc: '/images/NexusAeonWhite.png' },
     ];
-    const headingStyles = {
-        fontFamily: 'VCR OSD Mono, monospace',
-        fontSize: '30px',
-        fontWeight: 400,
-        lineHeight: '20px',
-        letterSpacing: '0em',
-        textAlign: 'left',
-        textDecorationColor: '#FFFFFF',
-        color: '#FFFFFF',
-        display: 'block',
-
-    };
-
-    const contentStyles = {
-        fontFamily: 'Anonymous Pro, monospace',
-        fontSize: '20px',
-        fontWeight: '400',
-        lineHeight: '20px',
-        letterSpacing: '0e',
-        textAlign: 'center',
-        width: '807px',
-        height: '100px',
-        top: '248px',
-        left: '236px',
-        textDecorationColor: '#FFFFFF',
-        color: '#FFFFFF',
-        display: 'block',
-        marginTop: '30px'
-
-    };
     return (
         <main className={styles.storeMain}>
             <Navbar/>
             <div className={styles.storeInfo}>
-                <div style={headingStyles}>STORE</div>
-                <div style={contentStyles}>
+                <div className={styles.storeHeading}>STORE</div>
+                <div className={styles.storeContent}>
                     Book a Workshop at Vashisht 24 and unlock FREE access to EDM Night, Robowars, Guest Lectures, Exhibitions, Summits, and Gaming setups. Limited seats – seize the chance to blend learning with entertainment!
                 </div>
             </div>
