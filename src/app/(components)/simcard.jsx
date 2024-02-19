@@ -16,6 +16,7 @@ const Simcard = ({ item }) => {
     eventPrize,
     eventDate,
     eventTime,
+    eventLink,
   } = item;
 
   return (

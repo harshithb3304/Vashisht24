@@ -15,6 +15,8 @@ const simcardData = [
     eventPrize: "₹100000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
+    eventLink:
+      "https://unstop.com/college-fests/vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufacturing-iiitdm-kancheepuram-197310",
   },
   {
     eventId: "workshop2",
@@ -25,6 +27,8 @@ const simcardData = [
     eventPrize: "₹20000000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
+    eventLink:
+      "https://unstop.com/college-fests/vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufacturing-iiitdm-kancheepuram-197310",
   },
   {
     eventId: "workshop3",
@@ -35,6 +39,8 @@ const simcardData = [
     eventPrize: "₹20000000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
+    eventLink:
+      "https://unstop.com/college-fests/vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufacturing-iiitdm-kancheepuram-197310",
   },
   {
     eventId: "workshop4",
@@ -45,6 +51,8 @@ const simcardData = [
     eventPrize: "₹20000000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
+    eventLink:
+      "https://unstop.com/college-fests/vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufacturing-iiitdm-kancheepuram-197310",
   },
   {
     eventId: "workshop5",
@@ -55,6 +63,8 @@ const simcardData = [
     eventPrize: "₹20000000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
+    eventLink:
+      "https://unstop.com/college-fests/vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufacturing-iiitdm-kancheepuram-197310",
   },
   {
     eventId: "workshop6",
@@ -65,6 +75,8 @@ const simcardData = [
     eventPrize: "₹20000000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
+    eventLink:
+      "https://unstop.com/college-fests/vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufacturing-iiitdm-kancheepuram-197310",
   },
   {
     eventId: "workshop7",
@@ -75,6 +87,8 @@ const simcardData = [
     eventPrize: "₹20000000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
+    eventLink:
+      "https://unstop.com/college-fests/vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufacturing-iiitdm-kancheepuram-197310",
   },
   {
     eventId: "workshop8",
@@ -85,6 +99,8 @@ const simcardData = [
     eventPrize: "₹20000000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
+    eventLink:
+      "https://unstop.com/college-fests/vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufacturing-iiitdm-kancheepuram-197310",
   },
   {
     eventId: "workshop9",
@@ -95,6 +111,8 @@ const simcardData = [
     eventPrize: "₹20000000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
+    eventLink:
+      "https://unstop.com/college-fests/vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufacturing-iiitdm-kancheepuram-197310",
   },
   // Add more simcard data as needed
 ];
@@ -131,7 +149,10 @@ const contentStyles = {
 const Page = () => {
   return (
     <main className={styles.workshopMain}>
-      <Navbar />
+      <div>
+        <Navbar />
+      </div>
+
       <div className={styles.workshopInfo}>
         <div style={headingStyles}>WORKSHOPS</div>
         <div style={contentStyles}>

@@ -55,7 +55,7 @@ const EventDetails = ({ params }) => {
         </div>
       </div>
       <div className={styles.buttonContainer}>
-        <Link href={"/"}>
+        <Link href={event.eventLink} target="_blank">
           <button className={styles.registerButton}>REGISTER NOW</button>
         </Link>
       </div>
