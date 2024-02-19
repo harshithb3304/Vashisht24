@@ -117,34 +117,6 @@ const simcardData = [
   // Add more simcard data as needed
 ];
 
-const headingStyles = {
-  fontFamily: "VCR OSD Mono, monospace",
-  fontSize: "30px",
-  fontWeight: 400,
-  lineHeight: "20px",
-  letterSpacing: "0em",
-  textAlign: "left",
-  textDecorationColor: "#FFFFFF",
-  color: "#FFFFFF",
-  display: "block",
-};
-
-const contentStyles = {
-  fontFamily: "Anonymous Pro, monospace",
-  fontSize: "20px",
-  fontWeight: "400",
-  lineHeight: "20px",
-  letterSpacing: "0e",
-  textAlign: "center",
-  width: "807px",
-  height: "100px",
-  top: "248px",
-  left: "236px",
-  textDecorationColor: "#FFFFFF",
-  color: "#FFFFFF",
-  display: "block",
-  marginTop: "30px",
-};
 
 const Page = () => {
   return (
@@ -154,8 +126,8 @@ const Page = () => {
       </div>
 
       <div className={styles.workshopInfo}>
-        <div style={headingStyles}>WORKSHOPS</div>
-        <div style={contentStyles}>
+        <div className={styles.workshopHeading}>WORKSHOPS</div>
+        <div className={styles.workshopContent}>
           Book a Workshop at Vashisht 24 and unlock FREE access to EDM Night,
           Robowars, Guest Lectures, Exhibitions, Summits, and Gaming setups.
           Limited seats – seize the chance to blend learning with entertainment!
