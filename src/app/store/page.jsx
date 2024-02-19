@@ -1,30 +1,33 @@
 // pages/Page.js
-import React from 'react';
-import styles from '@/app/styles/store.module.css';
-import Simcard from '/src/app/(components)/simcard';
+import React from "react";
+import styles from "@/app/styles/store.module.css";
+import Simcard from "/src/app/(components)/simcard";
 import Navbar from "@/app/(components)/navbar";
 import Footer from "@/app/(components)/footer";
 const storeData = [
-    {
-        eventId: 'store1',
-        eventName: 'STORE  1',
-        imageSrc: '/images/ball.png',
-        eventInfo: 'Join us for an introductory workshop on React. Learn the basics and get started with building web applications.',
-        eventPrize: "₹100000",
-        eventDate : "16th February 2024",
-        eventTime : "10:00 PM",
-
-    },
-    {
-        eventId: 'store2',
-        eventName: 'STORE 2',
-        imageSrc: '/images/ball.png',
-        eventInfo: 'Explore advanced CSS techniques and best practices. Dive into responsive design, animations, and more.',
-        eventPrize: "₹20000000",
-        eventDate : "16th February 2024",
-        eventTime : "10:00 PM",
-    },
-    // Add more simcard data as needed
+  {
+    eventId: "store1",
+    eventName: "STORE  1",
+    imageSrc: "/images/ball.png",
+    eventInfo:
+      "Join us for an introductory workshop on React. Learn the basics and get started with building web applications.",
+    eventPrize: "₹100000",
+    eventDate: "16th February 2024",
+    eventTime: "10:00 PM",
+    eventLink: "/",
+  },
+  {
+    eventId: "store2",
+    eventName: "STORE 2",
+    imageSrc: "/images/ball.png",
+    eventInfo:
+      "Explore advanced CSS techniques and best practices. Dive into responsive design, animations, and more.",
+    eventPrize: "₹20000000",
+    eventDate: "16th February 2024",
+    eventTime: "10:00 PM",
+    eventLink: "/",
+  },
+  // Add more simcard data as needed
 ];
 const Page = () => {
     const simcardData = [
@@ -52,4 +55,4 @@ const Page = () => {
 };
 
 export default Page;
-export {storeData};
+export { storeData };
