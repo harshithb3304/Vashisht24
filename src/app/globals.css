@@ -7,9 +7,11 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    /* overflow: hidden; */
+    height: 150%;
+    overflow: hidden;
     z-index: -2;
+    margin: 0;
+    padding-inline-start: 0;
 }
 
 .circles li{
@@ -128,14 +130,27 @@
     background-attachment: fixed;
 } */
 
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
 body {
-    margin: auto;
+    height: 100%;
+    width: 100%;
+    /* margin: auto; */
+    z-index: -2;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     overflow: auto;
     background: linear-gradient(315deg, rgb(20, 2, 75) 3%, rgb(3, 1, 33) 38%, rgb(25, 7, 156) 68%, rgb(17, 121, 190) 98%);
     animation: gradient 8s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;
+}
+
+.inner_retangle_main{
+    height: 100%;
+    width: 100%;
 }
 
 @keyframes gradient {

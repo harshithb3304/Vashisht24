@@ -43,7 +43,7 @@ const Page = () => {
         const baseFontSize_1 = parseFloat(window.getComputedStyle(heading_main_1).fontSize);
         const baseFontSize_2 = parseFloat(window.getComputedStyle(heading_main_2).fontSize);
 
-        const scrollFactor = 0.8;
+        const scrollFactor = 2;
 
         const scrollDiff = Math.abs(currentScrollPos - prevScrollPos);
 

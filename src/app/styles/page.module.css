@@ -300,7 +300,7 @@
   color: #FFF;
   text-align: center;
   font-family: "Anonymous Pro",monospace;
-  font-size: 20px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -370,7 +370,7 @@
     max-width: 100%; /* Set the maximum width to 100% */
     height: auto;
     position: relative;
-    z-index: 1;
+    z-index: 0;
   }
 
   .image16{
@@ -383,37 +383,45 @@
   }
 
 
-  @media(max-width: 600px) {
+  @media(max-width: 1200px) {
 
+  
     .landing {
-      height: 400rem;
+      height: 247rem;
+      width: 100%;
     }
-    .landing_heading_1{
-      font-size: 60px;
+    .landing_heading_1 {
+      font-size: 150px;
     }
-
-    .about_landing {
-      top: 100%;
-    }
-
-    .lending_heading_2{
-      font-size: 40px;
+    .location_text {
+      font-size: 30px;
+      top: 37%;
     }
 
-    .about_v{
-      font-size: 12px;
+    .horizontal_rectangle {
+      top: 40%;
+      width: 270px;
+    }
+
+    .image6{
+      top: 80%;
+    }
+
+    .image7{
+      top: 80%;
     }
 
     .paragraph_landing{
-      font-size: 10px;
+      top: 50%;
+      width: 580px;
     }
 
-    .about_landing h1 {
-      font-size: 25px;
+    .about_v{
+      left: 85%;
     }
 
-    .image12{
-      bottom: -150px;
+    .image16{
+      display: none;
     }
   }
 
