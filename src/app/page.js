@@ -107,7 +107,7 @@ const Page = () => {
           <Link href={"/workshops"}><h1>Embark on the Evolutionary Odyssey: Tech Through Time  </h1></Link>
 
           <h2 className={styles.about_v}>About Vashisht</h2>
-        <p className={styles.paragraph_landing}>Vashisht 24 is not just an event; it is a dynamic platform designed to amplify engineering aspirations. We invite tech enthusiasts to showcase their intelligence and creativity in a highly competitive environment. Nexus Aeon aims to redefine the boundaries of imagination and technology, creating an immersive experience for all participants.</p>
+        <p className={styles.paragraph_landing}>Vashisht24, the fifth edition of IIITDM Kancheepurams Annual Technical Fest, NEXUSAEON, is set for March 15th to 17th, 2024, offering an inclusive platform for engineering enthusiasts to celebrate intelligence and creativity through diverse activities such as robotics, entrepreneurship, coding, and design. It promotes sustainability and defence exploration (RETROFUTURE), aiming to foster a collaborative tech community, inviting individuals to embark on an innovative journey.        </p>
         <Image src="/images/buildings.png" className={styles.image12} alt="Top Left" width={9000} height={30} />
       </div>
     </div>
