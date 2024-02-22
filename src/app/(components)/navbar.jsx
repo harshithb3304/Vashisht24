@@ -52,11 +52,11 @@ const Navbar = () => {
         >
           <div className={styles.navbarArrangement}>
             <Link href={"/workshops"} style={linkStyles}>
-              WORKSHOPS
+              WORKSHOPS & TALKS
             </Link>
-            <Link href={"/talks"} style={linkStyles}>
+            {/* <Link href={"/talks"} style={linkStyles}>
               TALKS
-            </Link>
+            </Link> */}
             <Link href={"/events"} style={linkStyles}>
               EVENTS
             </Link>

@@ -35,6 +35,35 @@
     margin-top: 30px;
     margin-bottom:30px;
 }
+
+.cardButton {
+    font-family: 'VCR OSD Mono', monospace;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #E800D2;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: absolute;
+    bottom:-300px;
+}
+
+.accommodationPolicy{
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: '0e';
+    text-align:left;
+    width: 80%;
+    text-decoration-color: #FFF;;
+    color: #FFF;;
+    display: 'block';
+    margin-top: 30px;
+    margin-bottom:30px;
+}
 .accommodationInfo {
     display: flex;
     align-items: center;

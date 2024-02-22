@@ -38,6 +38,10 @@
     color:white;
     font-family: 'VCR OSD Mono', monospace;
   }
+
+  .second{
+    width:30rem;
+  }
   
   .third{
     justify-content:flex-start;

@@ -7,15 +7,16 @@ const Footer = () => {
         <div className={styles.foot}>
             <div className={styles.first}>
                 <div className={styles.name1}><b>Address</b></div>
-                <div>IIITDM Kancheepuram,<br/>Vandalur-Kelambakkam Road,<br/>Melakottaiyur,<br/>Chennai<br/>Tamil
+                <div>IIITDM Kancheepuram,<br/>Melaottaiyur, Nellikuppam Road, Near Kandigai<br/>Off Vandalur-Kelambakkam Road,<br/>Chennai<br/>Tamil
                     nadu, India - 600036
                 </div>
             </div>
             <div className={styles.second}>
                 <div className={styles.name}><b>Contact Us</b></div>
                 <br/>
-                <a href='/'>something@gmail.com</a>
+                <a href='/'>vashsiht.techfest@iiitdm.ac.in</a>
                 <br/>
+                <span>9642287347 | 9393107783 | 8197714735</span>
 
             </div>
             <div className={styles.third}>
