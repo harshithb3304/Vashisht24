@@ -228,7 +228,161 @@ const events = [
     eventTime: "10:00 PM",
     eventLink: "/",
   },
-  // Add more simcard data as needed
+  {
+    eventId: "RE-CODE_THE_PAST",
+    eventName: "RE - CODE THE PAST",
+    imageSrc: "/images/ball.png",
+    eventInfo:
+      "'Recode the Past' is an exhilarating journey through the annals of web history, inviting participants to breathe new life into vintage website screenshots with their coding prowess. In this captivating event, developers are tasked with the thrilling challenge of recreating iconic snapshots from the internet's bygone eras, transporting viewers back in time with pixel-perfect precision and modern-day finesse.",
+    eventPrize: "₹5,000",
+    eventDate: "16th February 2024",
+    eventTime: "10:00 PM",
+    eventLink: "/",
+  },
+  {
+    eventId: "BUG_HUNT",
+    eventName: "BUG HUNT",
+    imageSrc: "/images/ball.png",
+    eventInfo:
+      "Get ready to flex those debugging muscles! Join our bug-hunting extravaganza where you'll dive into repositories filled with code glitches across c, c++ and python. Find and squash those bugs to earn points and climb your way to victory. Think you have what it takes? Let the bug hunt begin!",
+    eventPrize: "₹3,500",
+    eventDate: "16th February 2024",
+    eventTime: "10:00 PM",
+    eventLink: "/",
+  },
+  {
+    eventId: "CAD_DESIGN",
+    eventName: "CAD DESIGN",
+    imageSrc: "/images/ball.png",
+    eventInfo:
+      "The participants are expected to do the CAD design for the given problem statement. The event is conducted in two rounds. The first round comprises online competition and the shortlisted participants are expected to do CAD design on site in round two.",
+    eventPrize: "₹4,500",
+    eventDate: "16th February 2024",
+    eventTime: "10:00 PM",
+    eventLink: "/",
+  },
+  {
+    eventId: "DATA_SCIENCE_HACKATHON",
+    eventName: "DATA SCIENCE HACKATHON",
+    imageSrc: "/images/ball.png",
+    eventInfo:
+      "Embark on a thrilling journey of data exploration in our 'Discovering Drive: Unraveling Patterns in ADAS Data' challenge! Dive into the world of advanced driver assistance systems, analyze intricate patterns, and reshape the future of driving. Join us to accelerate innovation in automotive technology!",
+    eventPrize: "₹8,000",
+    eventDate: "16th February 2024",
+    eventTime: "10:00 PM",
+    eventLink: "/",
+  },
+  {
+    eventId: "BRIDGE_BUILDING",
+    eventName: "BRIDGE BUILDING",
+    imageSrc: "/images/ball.png",
+    eventInfo:
+      "Welcome to the Ice Bridge Challenge! Construct the sturdiest bridge using ice cream sticks, testing your creativity and engineering skills. Design, build, and fortify a bridge capable of holding our specified payload, all while keeping cool under pressure. Join us for a thrilling adventure in innovation and teamwork! ",
+    eventPrize: "₹ 4,500",
+    eventDate: "16th February 2024",
+    eventTime: "10:00 PM",
+    eventLink: "/",
+  },
+  {
+    eventId: "STAR_TREK_RALLY-RC_CHALLENGE",
+    eventName: "STAR TREK RALLY - RC CHALLENGE",
+    imageSrc: "/images/ball.png",
+    eventInfo:
+      "Imagine if we landed on MaRS and raced futuristic RC cars. Race like a Jedi, WIN like a Martian Champion! Engage in high-speed thrills, navigate otherworldly terrain, and boldly go where no racer has gone before. Join us for a cosmic race like no other!",
+    eventPrize: "₹10,000",
+    eventDate: "16th February 2024",
+    eventTime: "10:00 PM",
+    eventLink: "/",
+  },
+  {
+    eventId: "LOGIC_LOOM",
+    eventName: "LOGIC LOOM",
+    imageSrc: "/images/ball.png",
+    eventInfo:
+      "Get ready for a thrilling 2-hour competition where 2-member teams choose between MATLAB (M) and Verilog (V), attempting both sets within a 24-hour submission window. Winners claim victory based on the highest points, with efficiency as the tiebreaker for those on par. Unleash your logic prowess and let the weaving of brilliance begin! ",
+    eventPrize: "₹10,000",
+    eventDate: "16th February 2024",
+    eventTime: "10:00 PM",
+    eventLink: "/",
+  },
+  {
+    eventId: "ELECROCRAFT",
+    eventName: "ELECROCRAFT",
+    imageSrc: "/images/ball.png",
+    eventInfo:
+      "Welcome to ELECROCRAFT, where creativity sparks through soldering! First-year students learn on prototyping boards, choosing, designing, and soldering circuits. They evaluate performance and share projects, fostering creativity and problem-solving. Get ready to wield your soldering iron and unleash imagination with ELECROCRAFT!",
+    eventPrize: "₹8,000",
+    eventDate: "16th February 2024",
+    eventTime: "10:00 PM",
+    eventLink: "/",
+  },
+  {
+    eventId: "ML_HACKATHON",
+    eventName: "ML HACKATHON",
+    imageSrc: "/images/ball.png",
+    eventInfo:
+      "Embark on an exhilarating journey into the world of machine learning at our hackathon! Picture yourself surrounded by a vibrant community of like-minded peers, all eager to dive deep into the realm of AI. The hackathon will be divided into three tracks: Junior, Senior, and Open for All, catering to participants with diverse skill sets. Whether you're new to machine learning, an experienced junior or senior, or an enthusiast from any academic background, this hackathon provides an opportunity to address real-world challenges using ML. Participate and compete for substantial prizes and showcase your proficiency in the field.",
+    eventPrize: "₹8,000",
+    eventDate: "16th February 2024",
+    eventTime: "10:00 PM",
+    eventLink: "/",
+  },
+  {
+    eventId: "MONKEY_HEIST",
+    eventName: "MONKEY HEIST",
+    imageSrc: "/images/ball.png",
+    eventInfo:
+      "Experience the pulse-pounding excitement of MonkeyHeist, a cutting-edge robotics competition where innovation and agility take center stage. Engage in lightning-speed bot navigation across a variety of challenging tracks designed for both junior and seasoned participants. This high-stakes event combines technical prowess and creativity, pushing teams to showcase their innovations. With a substantial prize pool, winners not only earn bragging rights but also enjoy a rewarding distribution reflecting their dedication. Join us for a thrilling showcase where technology meets acrobatics, and only the most agile bots swing their way to victory!",
+    eventPrize: "₹10,000",
+    eventDate: "16th February 2024",
+    eventTime: "10:00 PM",
+    eventLink: "/",
+  },
+  {
+    eventId: "SYNERGY_SHUFFLE",
+    eventName: "SYNERGY SHUFFLE",
+    imageSrc: "/images/ball.png",
+    eventInfo:
+      "Gear up for a mind-bending journey at the Synergy Shuffle: a retro-futuristic showdown of wit! Begin with an online quiz of nostalgic trivia. Victors advance to an on-campus final, trading synergy-imbued cards for strategic advantage. Hone negotiation skills and embrace unexpected collaborations for victory. Dive into this exhilarating blend of knowledge and skill, where past, present, and future collide in a dazzling display of retrofusion brilliance. Ready to answer the call?",
+    eventPrize: "₹6,500",
+    eventDate: "16th February 2024",
+    eventTime: "10:00 PM",
+    eventLink: "/",
+  },
+  {
+    eventId: "MARKVISTA",
+    eventName: "MARKVISTA",
+    imageSrc: "/images/ball.png",
+    eventInfo:
+      "In this competition, participants step into the role of a Chief Marketing Officer, tasked with crafting a comprehensive marketing strategy for an assigned brand. With a specific region and budget, teams must devise a campaign encompassing Digital, Event, Product, and Brand Management Marketing. The challenge involves creating a customer persona to maximize ROI and elevate the brand's market potential.",
+    eventPrize: "₹6,500",
+    eventDate: "16th February 2024",
+    eventTime: "10:00 PM",
+    eventLink: "/",
+  },
+  {
+    eventId: "CEREBRAL_CIRCUITRY",
+    eventName: "CEREBRAL CIRCUITRY",
+    imageSrc: "/images/ball.png",
+    eventInfo:
+      "Embark on the 'Cerebral Circuitry' challenge! Dive into Arduino coding, spark innovation, and conquer electronics with us!",
+    eventPrize: "₹5,000",
+    eventDate: "16th February 2024",
+    eventTime: "10:00 PM",
+    eventLink: "/",
+  },
+  {
+    eventId: "SCI-QUEST",
+    eventName: "SCI - QUEST",
+    imageSrc: "/images/ball.png",
+    eventInfo:
+      "Join Sci Quest: the ultimate science quiz challenge! Test your knowledge, compete, and uncover the mysteries of the universe in a thrilling quest for victory.",
+    eventPrize: "₹300",
+    eventDate: "16th February 2024",
+    eventTime: "10:00 PM",
+    eventLink: "/",
+  },
+  
 ];
 
 const Page = () => {

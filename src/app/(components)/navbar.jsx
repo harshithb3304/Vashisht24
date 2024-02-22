@@ -51,6 +51,10 @@ const Navbar = () => {
           }`}
         >
           <div className={styles.navbarArrangement}>
+
+          <Link href={"/about"} style={linkStyles} >
+              ABOUT
+              </Link>
             <Link href={"/workshops"} style={linkStyles}>
               WORKSHOPS & TALKS
             </Link>
