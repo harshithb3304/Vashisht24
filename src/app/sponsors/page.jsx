@@ -54,10 +54,10 @@ const sponsors = () => {
               <p><b>Showcasing the Spectacle:</b> The grandeur of our fest culminates in spectacular pro shows spread across a thrilling 3-day journey. Imagine the blend of high-tech exhibitions with the flavor of fun and entertainment, making it the perfect setting for your brand to shine.</p>
             </li>
             <li>
-              <p><b>Media and Engagement:</b> Our media strategy is not just about tech and entrepreneurial narratives; it's tailored to resonate with current trends and fun elements. With extensive social media campaigns, including engaging posts, trending challenges, and interactive content, ensure maximum visibility and engagement for your brand.</p>
+              <p><b>Media and Engagement:</b> Our media strategy is not just about tech and entrepreneurial narratives; it is tailored to resonate with current trends and fun elements. With extensive social media campaigns, including engaging posts, trending challenges, and interactive content, ensure maximum visibility and engagement for your brand.</p>
             </li>
             <li>
-              <p><b>Reach and Impact:</b> As a sponsor, your brand will not only reach a vast audience of tech enthusiasts and budding entrepreneurs but will also engage with them in a meaningful, trendsetting environment. It’s about connecting your brand with the right talent and consumers in a setting that’s both technically enriching and entertaining.</p>
+              <p><b>Reach and Impact:</b> As a sponsor, your brand will not only reach a vast audience of tech enthusiasts and budding entrepreneurs but will also engage with them in a meaningful, trendsetting environment. It is about connecting your brand with the right talent and consumers in a setting that is both technically enriching and entertaining.</p>
             </li>
           </ul>
 
