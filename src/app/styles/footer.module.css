@@ -10,8 +10,8 @@
     height: 18.75rem;
     justify-content: space-around;
     background-color: rgba(0, 0, 0, 0.3);
-    margin-top: 3.125rem;
-    margin-bottom: -0.3125rem;
+    margin-top: auto;
+    /* margin-bottom: -0.3125rem; */
     /* Center the columns horizontally */
   }
   
@@ -72,17 +72,22 @@
   @media (max-width: 768px) {
     .foot {
       flex-direction: column;
-      height: 50rem;
+      height: auto; /* Remove fixed height */
       margin-top: 5rem;
       width: 100vw;
       align-items: center;
-      margin-bottom: -0.3125rem;
+      overflow-x: hidden; /* Prevent horizontal scroll */
     }
   
     .first, .second, .third {
       margin-bottom: 3.125rem;
       align-items: center; /* Center the items horizontally */
       text-align: center; /* Center the text within each column */
+      width: 100%; /* Make each column take full width */
+    }
+  
+    .third {
+      justify-content: center; /* Center content */
     }
   }
   /* CSS for mobile view */
