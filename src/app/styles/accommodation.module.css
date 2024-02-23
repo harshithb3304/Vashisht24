@@ -38,16 +38,29 @@
 
 .cardButton {
     font-family: 'VCR OSD Mono', monospace;
-    display: inline-block;
-    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.9375rem 1.5625rem; /* 15px 25px converted to rem */
     background-color: #E800D2;
     color: #FFFFFF;
     text-decoration: none;
-    border-radius: 5px;
+    border: 0.0625rem solid #E800D2; /* 1px converted to rem */
+    width: 11.25rem; /* 180px converted to rem */
+    height: 3.75rem; /* 60px converted to rem */
+    border-radius: 1.46875rem; /* 23.5px converted to rem */
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
-    position: absolute;
-    bottom:-300px;
+    position: relative;
+    bottom: 0%;
+    font-size: 20px;
+}
+
+.cardButton:hover {
+    background-color: #FF00FF;
+    cursor: pointer;
+    transform: translateY(-0.3125rem); /* -5px converted to rem */
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.3); 
 }
 
 .accommodationPolicy{

@@ -17,6 +17,8 @@
     color: #E800D2;
     display: block;
     margin-top: 1.875rem; /* 30px converted to rem */
+    padding-right: 20px; /* Adjust as needed */
+    padding-left: 20px; /* Adjust as needed */
 }
 
 .eventContent,
@@ -47,6 +49,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 .image {
@@ -122,6 +125,11 @@
   
     .buttonContainer {
       padding-bottom: 5rem; /* Adjust bottom padding for better spacing */
+    }
+
+    .content {
+        margin: 10px;
+        padding: 0.5rem;
     }
   }
   
