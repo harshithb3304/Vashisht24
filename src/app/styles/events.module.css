@@ -60,4 +60,9 @@
         flex-direction: column; /* Adjusted for mobile layout */
     }
 }
-
+/* CSS for mobile view */
+@media (max-width: 360px) {
+    .eventsContent{
+        margin-bottom: 100px;
+    }
+}
