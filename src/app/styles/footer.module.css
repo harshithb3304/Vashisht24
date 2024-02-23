@@ -90,4 +90,10 @@
       justify-content: center; /* Center content */
     }
   }
+  /* CSS for mobile view */
+  @media (max-width: 1920px) {
+    .foot{
+        margin-top: 450px;
+    }
+}
   

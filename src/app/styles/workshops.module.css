@@ -63,3 +63,9 @@
 
     /* Add any additional styling for mobile screens here */
 }
+
+@media (max-width: 330px) {
+    .workshopContent{
+        padding-bottom: 100px;
+    }
+}
