@@ -12,7 +12,7 @@
     font-weight: 400;
     line-height: 20px;
     letter-spacing: '0em';
-    text-align: 'left';
+    text-align: 'center';
     text-decoration-color: #FFF;
     color: #FFF;
     display: 'block';
@@ -26,9 +26,8 @@
     letter-spacing: '0e';
     text-align: 'center';
     width: 80%;
-    height: 100px;
-    top: 248px;
-    left: 236px;
+    height: auto;
+    position:static;
     text-decoration-color: #FFF;;
     color: #FFF;;
     display: 'block';
@@ -71,6 +70,8 @@
     letter-spacing: '0e';
     text-align:left;
     width: 80%;
+    height: auto;
+    position:static;
     text-decoration-color: #FFF;;
     color: #FFF;;
     display: 'block';
