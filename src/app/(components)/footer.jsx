@@ -39,7 +39,10 @@ const Footer = () => {
         </div>
         <div className={styles.iconGap}>
           <br />
-          <Link href="/">
+          <Link
+            href="https://www.instagram.com/iiitdm_vashisht/"
+            target="_blank"
+          >
             <Image
               alt="Instagram"
               src="/images/instagram.svg"
@@ -47,7 +50,10 @@ const Footer = () => {
               height={25}
             />
           </Link>
-          <Link href="/">
+          <Link
+            href="https://www.linkedin.com/in/vashisht-iiitdm-kancheepuram-00a2b5261"
+            target="_blank"
+          >
             <Image
               alt="Linkedin"
               src="/images/linkedin.svg"
@@ -55,15 +61,8 @@ const Footer = () => {
               height={25}
             />
           </Link>
-          <Link href="/">
-            <Image
-              alt="Twitter"
-              src="/images/twitter.svg"
-              width={25}
-              height={25}
-            />
-          </Link>
-          <Link href="/">
+
+          <Link href="https://www.youtube.com/@iiitdm_vashisht" target="_blank">
             <Image
               alt="Youtube"
               src="/images/youtube.svg"
