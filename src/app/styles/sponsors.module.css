@@ -1,0 +1,59 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.sponsors {
+  margin-top: 40px;
+  font-family: 'VCR OSD Mono', monospace;
+  color: white;
+  font-size: 25px;
+}
+
+.sponsor_images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sponsor_images img {
+  width: 120px;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+}
+
+.sponsorship_info {
+  color: white;
+  font-family: 'VCR OSD Mono', monospace;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+
+.sponsorship_info h2 {
+  font-family: 'VCR OSD Mono', monospace;
+  font-size: 50px;
+  font-weight: 400;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sponsorship_info p {
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.container ul li p {
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
