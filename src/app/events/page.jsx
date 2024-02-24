@@ -86,7 +86,8 @@ const events = [
     eventId: "retrover",
     eventName: "RETROVER",
     imageSrc: "/images/ball.png",
-    eventInfo:"Redefine limits and outsmart obstacles in our autonomous rover challenge Join this crazy arena where teams will navigate a simulated maze using autonomous UGVs or teleoperation. Solve clues, conquer obstacles, and compete for the top prize! Bring your engineering prowess and strategic thinking to this thrilling robotics event. Join in for a fun journey of teamwork and problem-solving",
+    eventInfo:
+      "Redefine limits and outsmart obstacles in our autonomous rover challenge Join this crazy arena where teams will navigate a simulated maze using autonomous UGVs or teleoperation. Solve clues, conquer obstacles, and compete for the top prize! Bring your engineering prowess and strategic thinking to this thrilling robotics event. Join in for a fun journey of teamwork and problem-solving",
     eventPrize: "₹25000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
@@ -118,7 +119,8 @@ const events = [
     eventId: "yesterday",
     eventName: "Yesterday's Tomorrow",
     imageSrc: "/images/ball.png",
-    eventInfo:"Embark on a narrative journey through time with the Yesterdays Tomorrow, a captivating event at our college fest. Participants will be provided with a building block of a story, and their task is to expand upon it, crafting an entire narrative in the form of a storytelling poster. The theme of retrofuturism or timeline adds a unique twist, inviting students to weave tales that transcend eras and envision futuristic histories",
+    eventInfo:
+      "Embark on a narrative journey through time with the Yesterdays Tomorrow, a captivating event at our college fest. Participants will be provided with a building block of a story, and their task is to expand upon it, crafting an entire narrative in the form of a storytelling poster. The theme of retrofuturism or timeline adds a unique twist, inviting students to weave tales that transcend eras and envision futuristic histories",
     eventPrize: "₹7000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
@@ -128,7 +130,8 @@ const events = [
     eventId: "jetsetchic",
     eventName: "JET SET CHIC",
     imageSrc: "/images/ball.png",
-    eventInfo:"Embark on a thrilling journey of creativity and problem-solving with Jet Set Chic-Unraveling Clues through the Glamour of Retro Future Elegance! a unique event that combines the excitement of a treasure hunt with the challenges of design puzzles. This event is a highlight of our college fest, offering students a chance to showcase their design acumen, analytical skills, and teamwork",
+    eventInfo:
+      "Embark on a thrilling journey of creativity and problem-solving with Jet Set Chic-Unraveling Clues through the Glamour of Retro Future Elegance! a unique event that combines the excitement of a treasure hunt with the challenges of design puzzles. This event is a highlight of our college fest, offering students a chance to showcase their design acumen, analytical skills, and teamwork",
     eventPrize: "₹10000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
@@ -138,7 +141,8 @@ const events = [
     eventId: "backtothefuture",
     eventName: "BACK TO THE FUTURE",
     imageSrc: "/images/ball.png",
-    eventInfo:"Unleash your creativity in Back to the future: Designing Tomorrow's classics, an engaging event at our college fest when students will transform a set of provided stationery into innovative product mock-ups. This unique challenge combines resourcefulness, design thinking, and the theme of retrofuturism or timeline. Participants will be tasked with crafting mock-ups that not only meet specified condition but also reflect a blend of past visions and futuristic aesthetics.",
+    eventInfo:
+      "Unleash your creativity in Back to the future: Designing Tomorrow's classics, an engaging event at our college fest when students will transform a set of provided stationery into innovative product mock-ups. This unique challenge combines resourcefulness, design thinking, and the theme of retrofuturism or timeline. Participants will be tasked with crafting mock-ups that not only meet specified condition but also reflect a blend of past visions and futuristic aesthetics.",
     eventPrize: "₹10000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
@@ -148,7 +152,8 @@ const events = [
     eventId: "designx",
     eventName: "DESIGNX 2.0",
     imageSrc: "/images/ball.png",
-    eventInfo:"Join our Aero Model design Competition! Craft a captivating retro-themed aeromodel using Fusion 360. Impress judges with historical aesthetics and functionality. Flight Tests assess performance and adherence to the chosen era. Win exciting prizes. Unleash your creativity in the sky and on the ground!",
+    eventInfo:
+      "Join our Aero Model design Competition! Craft a captivating retro-themed aeromodel using Fusion 360. Impress judges with historical aesthetics and functionality. Flight Tests assess performance and adherence to the chosen era. Win exciting prizes. Unleash your creativity in the sky and on the ground!",
     eventPrize: "₹8000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
@@ -158,7 +163,8 @@ const events = [
     eventId: "ctrly",
     eventName: "CTRL Y",
     imageSrc: "/images/ball.png",
-    eventInfo:"Dive into the realm of innovation with CTRL-Y, where we challenge you to reimagine the future of aviation through a one of a kind retro RC plane controller! Showcase your design skills in a detailed report or dynamic PowerPoint. Live presentations are optional but encouraged for discussing unique ideas. Win an exciting cash prize as you shape the future of aviation design. Ready for the next era? Take flight now!",
+    eventInfo:
+      "Dive into the realm of innovation with CTRL-Y, where we challenge you to reimagine the future of aviation through a one of a kind retro RC plane controller! Showcase your design skills in a detailed report or dynamic PowerPoint. Live presentations are optional but encouraged for discussing unique ideas. Win an exciting cash prize as you shape the future of aviation design. Ready for the next era? Take flight now!",
     eventPrize: "₹8000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
@@ -168,7 +174,8 @@ const events = [
     eventId: "dishanav",
     eventName: "DISHA NAV",
     imageSrc: "/images/ball.png",
-    eventInfo:"Welcome to DISHA NAV, a hackathon where you'll code solutions for retrofuturistic aviation challenges! Design obstacle detection systems, map routes with precision, and build networks for sharing location data in the cloud. So, are you ready to soar to new heights, rewrite the rules of flight, leave your mark on the skies and win a cash prize? Join us at DISHA NAV and let your coding skills take flight !",
+    eventInfo:
+      "Welcome to DISHA NAV, a hackathon where you'll code solutions for retrofuturistic aviation challenges! Design obstacle detection systems, map routes with precision, and build networks for sharing location data in the cloud. So, are you ready to soar to new heights, rewrite the rules of flight, leave your mark on the skies and win a cash prize? Join us at DISHA NAV and let your coding skills take flight !",
     eventPrize: "₹8000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
@@ -179,7 +186,8 @@ const events = [
     eventId: "pilotz",
     eventName: "PILOTZ",
     imageSrc: "/images/ball.png",
-    eventInfo:"Redefine remote-controlled aviation with innovative controllers for RC planes. Design the controller, emphasizing both functionality and creativity. Submit your unique controller design along with a compelling abstract outlining the electronic components and materials used. Blend functionality with artistry, break free from conventions, and join us for a day of inspiration where the sky is just the beginning!",
+    eventInfo:
+      "Redefine remote-controlled aviation with innovative controllers for RC planes. Design the controller, emphasizing both functionality and creativity. Submit your unique controller design along with a compelling abstract outlining the electronic components and materials used. Blend functionality with artistry, break free from conventions, and join us for a day of inspiration where the sky is just the beginning!",
     eventPrize: "₹3500",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
@@ -190,29 +198,32 @@ const events = [
     eventId: "dishanav",
     eventName: "DISHA NAV",
     imageSrc: "/images/ball.png",
-    eventInfo:"Welcome to DISHA NAV, a hackathon where you'll code solutions for retrofuturistic aviation challenges! Design obstacle detection systems, map routes with precision, and build networks for sharing location data in the cloud. So, are you ready to soar to new heights, rewrite the rules of flight, leave your mark on the skies and win a cash prize? Join us at DISHA NAV and let your coding skills take flight !",
+    eventInfo:
+      "Welcome to DISHA NAV, a hackathon where you'll code solutions for retrofuturistic aviation challenges! Design obstacle detection systems, map routes with precision, and build networks for sharing location data in the cloud. So, are you ready to soar to new heights, rewrite the rules of flight, leave your mark on the skies and win a cash prize? Join us at DISHA NAV and let your coding skills take flight !",
     eventPrize: "₹8000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
     eventLink: "/",
   },
-  
+
   {
     eventId: "relaycoding",
     eventName: "RELAY CODING",
     imageSrc: "/images/ball.png",
-    eventInfo:"Event relay coding is a thrilling team-based programming challenge that mirrors the intensity and coordination of a traditional relay race. In this dynamic competition, teams of three developers work collaboratively to tackle a coding task, with each member responsible for a designated segment of the code. However, what sets this challenge apart is the unique twist: after a predetermined interval, teammates must seamlessly transition to pick up where their predecessor left off, ensuring continuity and efficiency in code execution.",
+    eventInfo:
+      "Event relay coding is a thrilling team-based programming challenge that mirrors the intensity and coordination of a traditional relay race. In this dynamic competition, teams of three developers work collaboratively to tackle a coding task, with each member responsible for a designated segment of the code. However, what sets this challenge apart is the unique twist: after a predetermined interval, teammates must seamlessly transition to pick up where their predecessor left off, ensuring continuity and efficiency in code execution.",
     eventPrize: "₹5000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
     eventLink: "/",
   },
-  
+
   {
     eventId: "obscurelanguages",
     eventName: "OBSCURE LANGUAGES",
     imageSrc: "/images/ball.png",
-    eventInfo:"Obscure Languages is a captivating event that celebrates the diversity and creativity of programming by immersing participants in the intriguing world of lesser-known artistic programming languages. In this one-of-a-kind competition, developers venture beyond the familiar realms of mainstream coding languages to explore the hidden gems of the programming landscape.",
+    eventInfo:
+      "Obscure Languages is a captivating event that celebrates the diversity and creativity of programming by immersing participants in the intriguing world of lesser-known artistic programming languages. In this one-of-a-kind competition, developers venture beyond the familiar realms of mainstream coding languages to explore the hidden gems of the programming landscape.",
     eventPrize: "₹5000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
@@ -222,7 +233,8 @@ const events = [
     eventId: "obscurelanguages",
     eventName: "CRYPTIC MESSAGES",
     imageSrc: "/images/ball.png",
-    eventInfo:"Welcome to Cryptic Messages, where decoding secrets is the name of the game! Participants are challenged with encrypted texts, requiring coding prowess to craft algorithms for decryption. From ancient ciphers to modern encryption techniques, each solution unveils hidden messages. Join us for an unforgettable journey into cryptography, where every character holds a clue. Are you ready to unravel the enigma? Register now and prepare to decode your way to victory at Cryptic Messages!",
+    eventInfo:
+      "Welcome to Cryptic Messages, where decoding secrets is the name of the game! Participants are challenged with encrypted texts, requiring coding prowess to craft algorithms for decryption. From ancient ciphers to modern encryption techniques, each solution unveils hidden messages. Join us for an unforgettable journey into cryptography, where every character holds a clue. Are you ready to unravel the enigma? Register now and prepare to decode your way to victory at Cryptic Messages!",
     eventPrize: "₹5000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
@@ -382,27 +394,36 @@ const events = [
     eventTime: "10:00 PM",
     eventLink: "/",
   },
-  
 ];
+for (let i = 0; i < events.length; i++) {
+  // Update the imageSrc property by adding the corresponding number
+  events[i].imageSrc = `/images/${i * 2 + 1}.jpg`;
+}
 
+for (let i = 0; i < events.length; i++) {
+  // Update the imageSrc2 property by adding the corresponding number
+  events[i].imageSrc2 = `/images/${i * 2 + 2}.jpg`;
+}
 const Page = () => {
-    return (
-        <main className={styles.eventsMain}>
-            <Navbar/>
-            <div className={styles.eventsInfo}>
-                <div className={styles.eventsHeading}>EVENTS</div>
-                <div className={styles.eventsContent}>
-                    Book a Workshop at Vashisht 24 and unlock FREE access to EDM Night, Robowars, Guest Lectures, Exhibitions, Summits, and Gaming setups. Limited seats – seize the chance to blend learning with entertainment!
-                </div>
-            </div>
-            <div className={styles.cardLayout}>
-                {events.map((item, index) => (
-                    <Simcard key={index.eventId} item={item} />
-                ))}
-            </div>
-            <Footer/>
-        </main>
-    );
+  return (
+    <main className={styles.eventsMain}>
+      <Navbar />
+      <div className={styles.eventsInfo}>
+        <div className={styles.eventsHeading}>EVENTS</div>
+        <div className={styles.eventsContent}>
+          Book a Workshop at Vashisht 24 and unlock FREE access to EDM Night,
+          Robowars, Guest Lectures, Exhibitions, Summits, and Gaming setups.
+          Limited seats – seize the chance to blend learning with entertainment!
+        </div>
+      </div>
+      <div className={styles.cardLayout}>
+        {events.map((item, index) => (
+          <Simcard key={index.eventId} item={item} />
+        ))}
+      </div>
+      <Footer />
+    </main>
+  );
 };
 
 export default Page;

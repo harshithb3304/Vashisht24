@@ -17,6 +17,7 @@ const Simcard = ({ item }) => {
     eventDate,
     eventTime,
     eventLink,
+    imageSrc2,
   } = item;
 
   return (
@@ -200,10 +201,10 @@ const Simcard = ({ item }) => {
             </div>
             <div className={styles.imageContainer}>
               <Image
-                src={imageSrc}
+                src={imageSrc2}
                 alt={`Simcard Image`}
-                width={100}
-                height={100}
+                width={200}
+                height={200}
               />
             </div>
             <p className={styles.eventName}>{eventName}</p>
