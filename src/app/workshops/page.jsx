@@ -46,7 +46,8 @@ const simcardData = [
     eventId: "workshop4",
     eventName: "GUEST LECTURES ON SPACE AND ENGINEERING",
     imageSrc: "/images/ball.png",
-    eventInfo:"Three esteemed guest lecturers will be invited to speak at the upcoming event focusing on manufacturing and space exploration, captivating the curiosity of the students with their insightful perspectives and expertise. Their engaging presentations will delve into the intricate connections between these two fascinating fields, shedding light on cutting-edge technologies, groundbreaking research, and the future possibilities awaiting exploration",
+    eventInfo:
+      "Three esteemed guest lecturers will be invited to speak at the upcoming event focusing on manufacturing and space exploration, captivating the curiosity of the students with their insightful perspectives and expertise. Their engaging presentations will delve into the intricate connections between these two fascinating fields, shedding light on cutting-edge technologies, groundbreaking research, and the future possibilities awaiting exploration",
     eventPrize: "NULL",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
@@ -67,7 +68,10 @@ const simcardData = [
   },
   // Add more simcard data as needed
 ];
-
+for (let i = 0; i < simcardData.length; i++) {
+  // Add the imageSrc2 property with a similar path as imageSrc but with an additional element
+  simcardData[i].imageSrc2 = simcardData[i].imageSrc.replace(".png", ".png");
+}
 
 const Page = () => {
   return (
