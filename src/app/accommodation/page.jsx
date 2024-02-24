@@ -40,8 +40,9 @@ const Page = () => {
         <div className={styles.accommodationContent}>
         IIITDM Kancheepuram provides excellent accommodation to its students. The students are provided with all the amenities so that their stay here becomes a worthwhile experience. At institute there is a good blend of academic, cultural, and social experience to all the students, scholars, staffs and faculties. Various co-curricular activities such as a coding contest, design challenges and etc, are coordinated by the respective clubs all throughout the year. Various sports tournaments such as basketball, cricket, badminton, etc are coordinated by the respective hostel sports secretary all throughout the year. Students also enjoy several cultural activities throughout the years conducted at hostel level. In addition to this, many cultural and social activities also happen during the academic year.
         </div>
-        <br />
-        <div className={styles.accomodationHeading}>ACCOMMODATION <br /> POLICY</div>
+        <br/><br/>
+        <br/><br/>
+        <div className={styles.accomodationHeading}>ACCOMMODATION POLICY</div>
         <br/>
         <div className={styles.accommodationPolicy}>
         1. Accommodation is allotted purely on availability and need basis as per the discretion of the Hostel Administration and on condition that the student agrees to abide by all the rules and regulations of the hostels of IIITDM.<br/><br/>
