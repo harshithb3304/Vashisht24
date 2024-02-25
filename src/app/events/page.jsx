@@ -15,7 +15,8 @@ const events = [
     eventPrize: "₹40000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
-    eventLink: "/",
+    eventLink:
+      "https://unstop.com/competitions/robowars-vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufacturing-iiitdm-876409",
   },
   {
     eventId: "hackathon",
@@ -27,7 +28,8 @@ const events = [
     eventPrize: "₹40000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
-    eventLink: "/",
+    eventLink:
+      "https://unstop.com/hackathons/hackathon-vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufacturing-iiitdm--877136",
   },
   {
     eventId: "droneracing",
@@ -39,7 +41,8 @@ const events = [
     eventPrize: "₹35000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
-    eventLink: "/",
+    eventLink:
+      "https://unstop.com/events/drone-racing-vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufacturing-iiitdm-k-893690",
   },
   {
     eventId: "aquaquest",
@@ -51,7 +54,8 @@ const events = [
     eventPrize: "₹30000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
-    eventLink: "/",
+    eventLink:
+      "https://unstop.com/competitions/aquaquest-vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufacturing-iiitd-877161",
   },
   {
     eventId: "namo",
@@ -63,7 +67,8 @@ const events = [
     eventPrize: "₹30000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
-    eventLink: "/",
+    eventLink:
+      "https://unstop.com/competitions/namo-aero-modelling-odyssey-vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-m-876987",
   },
   {
     eventId: "pitchonpitch",
@@ -75,7 +80,8 @@ const events = [
     eventPrize: "₹30000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
-    eventLink: "/",
+    eventLink:
+      "https://unstop.com/competitions/pitch-on-pitch-an-innovation-challenge-vashisht-2024-nexusaeon-indian-institute-of-information-technology-d-882102",
   },
   {
     eventId: "ctf",
@@ -87,7 +93,8 @@ const events = [
     eventPrize: "₹25000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
-    eventLink: "/",
+    eventLink:
+      "https://unstop.com/hackathons/capture-the-flag-vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufacturing--881786",
   },
   {
     eventId: "retrover",
@@ -99,7 +106,8 @@ const events = [
     eventPrize: "₹25000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
-    eventLink: "/",
+    eventLink:
+      "https://unstop.com/competitions/retrover-challenge-vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufactur-899032",
   },
   {
     eventId: "ieee",
@@ -111,7 +119,8 @@ const events = [
     eventPrize: "₹15000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
-    eventLink: "/",
+    eventLink:
+      "https://unstop.com/competitions/ieee-paper-presentation-competition-vashisht-2024-nexusaeon-indian-institute-of-information-technology-desi-877177",
   },
   {
     eventId: "asme",
@@ -135,7 +144,8 @@ const events = [
     eventPrize: "₹7000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
-    eventLink: "/",
+    eventLink:
+      "https://unstop.com/competitions/yesterdays-tomorrow-vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufactu-883263",
   },
   {
     eventId: "jetsetchic",
@@ -147,7 +157,8 @@ const events = [
     eventPrize: "₹10000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
-    eventLink: "/",
+    eventLink:
+      "https://unstop.com/competitions/yesterdays-tomorrow-vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufactu-883263",
   },
   {
     eventId: "backtothefuture",
@@ -159,7 +170,8 @@ const events = [
     eventPrize: "₹10000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
-    eventLink: "/",
+    eventLink:
+      "https://unstop.com/competitions/back-to-the-future-vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufactur-883258",
   },
   {
     eventId: "designx",
@@ -171,7 +183,8 @@ const events = [
     eventPrize: "₹8000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
-    eventLink: "/",
+    eventLink:
+      "https://unstop.com/events/designx-20-vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufacturing-iiitdm-kan-880343",
   },
   {
     eventId: "ctrly",
@@ -183,7 +196,8 @@ const events = [
     eventPrize: "₹8000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
-    eventLink: "/",
+    eventLink:
+      "https://unstop.com/competitions/ctrl-y-indian-institute-of-information-technology-design-and-manufacturing-iiitdm-kancheepuram-880429",
   },
   {
     eventId: "dishanav",
@@ -195,7 +209,8 @@ const events = [
     eventPrize: "₹8000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
-    eventLink: "/",
+    eventLink:
+      "https://unstop.com/competitions/disha-nav-vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufacturing-iiitd-880449",
   },
 
   {
@@ -221,7 +236,8 @@ const events = [
     eventPrize: "₹5000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
-    eventLink: "/",
+    eventLink:
+      "https://unstop.com/hackathons/relay-coding-contest-vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufactur-882365",
   },
 
   {
@@ -234,7 +250,8 @@ const events = [
     eventPrize: "₹5000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
-    eventLink: "/",
+    eventLink:
+      "https://unstop.com/hackathons/obscure-languages-vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufacturing-882358",
   },
 
   {
@@ -259,7 +276,8 @@ const events = [
     eventPrize: "₹3,500",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
-    eventLink: "/",
+    eventLink:
+      "https://unstop.com/competitions/bug-hunt-vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufacturing-iiitdm-881965",
   },
   {
     eventId: "CAD_DESIGN",
@@ -271,7 +289,8 @@ const events = [
     eventPrize: "₹4,500",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
-    eventLink: "/",
+    eventLink:
+      "https://unstop.com/p/cad-design-vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufacturing-iiitdm-kancheep-899714",
   },
   {
     eventId: "DATA_SCIENCE_HACKATHON",
@@ -283,7 +302,8 @@ const events = [
     eventPrize: "₹8,000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
-    eventLink: "/",
+    eventLink:
+      "https://unstop.com/p/data-science-hackathon-vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufacturing-iii-900393",
   },
   {
     eventId: "BRIDGE_BUILDING",
@@ -295,7 +315,8 @@ const events = [
     eventPrize: "₹ 4,500",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
-    eventLink: "/",
+    eventLink:
+      "https://unstop.com/p/cad-design-vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufacturing-iiitdm-kancheep-899714",
   },
   {
     eventId: "STAR_TREK_RALLY-RC_CHALLENGE",
@@ -319,7 +340,8 @@ const events = [
     eventPrize: "₹10,000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
-    eventLink: "/",
+    eventLink:
+      "https://unstop.com/hackathons/logic-loom-a-verimatrix-hackathon-vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-a-893552",
   },
   {
     eventId: "ELECROCRAFT",
@@ -355,7 +377,8 @@ const events = [
     eventPrize: "₹10,000",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
-    eventLink: "/",
+    eventLink:
+      "https://unstop.com/p/monkey-heist-vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufacturing-iiitdm-kanche-882789",
   },
   {
     eventId: "SYNERGY_SHUFFLE",
@@ -367,7 +390,8 @@ const events = [
     eventPrize: "₹6,500",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
-    eventLink: "/",
+    eventLink:
+      "https://unstop.com/competitions/synergy-shuffle-a-stock-market-challenge-vashisht-2024-nexusaeon-indian-institute-of-information-technology-883045",
   },
   {
     eventId: "MARKVISTA",
@@ -379,7 +403,8 @@ const events = [
     eventPrize: "₹6,500",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
-    eventLink: "/",
+    eventLink:
+      "https://unstop.com/p/markvista-vashisht-2024-nexusaeon-indian-institute-of-information-technology-design-and-manufacturing-iiitdm-kancheepu-898677",
   },
   {
     eventId: "CEREBRAL_CIRCUITRY",
