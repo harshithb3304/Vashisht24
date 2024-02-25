@@ -1,10 +1,11 @@
-.container{
+.container {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
     padding-bottom: 150px;
 }
-.heading{
+
+.heading {
     color: white;
     font-family: 'VCR OSD Mono', monospace;
     font-size: 40px;
@@ -13,21 +14,22 @@
     margin-top: 40px;
     padding: 0 20px;
 }
-.content{
+
+.content {
     font-family: 'Anonymous Pro', monospace;
     font-size: 20px;
     font-weight: 400;
     line-height: 20px;
-    letter-spacing: '0e';
-    text-align: 'center';
+    letter-spacing: 0;
+    text-align: center;
     width: auto;
-    text-decoration-color: #FFF;;
+    text-decoration-color: #FFF;
     color: #FFF;
     margin-top: 30px;
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
 
-.venue{
+.venue {
     font-family: 'Anonymous Pro', monospace;
     font-weight: 800;
     font-size: 20px;
@@ -36,29 +38,32 @@
     margin-bottom: 20px;
     color: white;
 }
-.tickets{
+
+.tickets {
     text-align: center;
 }
-.Button{
+
+.Button {
     width: auto;
-    margin-top: 2rem; 
-    margin-bottom: 2rem; 
-    padding: 0.5rem 1rem; 
-    font-size: 1rem; 
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
     border-radius: 0.5rem;
     color: white;
     background-color: #e800d2;
+    visibility: hidden; /* Initially hide the button */
+    opacity: 0; /* Initially make the button transparent */
+    transition: visibility 0s, opacity 0.5s linear; /* Smooth transition for visibility and opacity */
 }
-.Button1 :hover{
-    opacity: 30;
-    background-color: #e800d2;
-}
+
 .ticket {
     position: relative;
     display: inline-block;
     align-items: center;
-  }
-  .tooltip {
+}
+
+.tooltip {
     visibility: hidden;
     width: 120px;
     background-color: black;
@@ -73,22 +78,25 @@
     transform: translate(-50%, -50%);
     opacity: 0;
     transition: opacity 0.3s;
-  }
-  .ticket:hover .tooltip  {
+}
+
+.ticket:hover .tooltip {
     visibility: visible;
     opacity: 1;
     background-color: #e800d2;
     cursor: pointer;
-  }
-  
-  .ticket:hover .ticket_image {
+}
+
+.ticket:hover .ticket_image {
     filter: blur(5px);
-  }
-  .ticket_image {
+}
+
+.ticket_image {
     transition: filter 0.3s ease;
     width: auto;
-  }
-  
-.footer {
-    margin-top: auto;
+}
+
+.ticket:hover .Button {
+    visibility: visible; /* Make the button visible on hover */
+    opacity: 1; /* Make the button fully opaque on hover */
 }
