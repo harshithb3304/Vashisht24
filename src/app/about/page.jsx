@@ -12,7 +12,7 @@ const About = () => {
       <div className={styles.container}>
         <div className={styles.title}>
           <div className="images">
-            <Link href="/">
+            <Link href="iiitdm.ac.in">
               <Image
                 src="/images/iiitdm_logo-removebg-preview.png"
                 alt="IIITDM-LOGO"
