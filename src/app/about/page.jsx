@@ -27,11 +27,12 @@ const About = () => {
           <ul>
             <li>
               <p>
-                Kancheepuram is a Centre of Excellence for technical education
-                and research established in 2007 by the Ministry of Education,
-                Government of India to pursue design and manufacturing oriented
-                engineering education and research and to promote the
-                competitive advantage of Indian products in global markets.
+                IIITDM Kancheepuram is a Centre of Excellence for technical
+                education and research established in 2007 by the Ministry of
+                Education, Government of India to pursue design and
+                manufacturing oriented engineering education and research and to
+                promote the competitive advantage of Indian products in global
+                markets.
               </p>
             </li>
             <li>
