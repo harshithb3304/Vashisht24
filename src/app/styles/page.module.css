@@ -421,7 +421,8 @@
     }
 
     .image16{
-      display: none;
+      position: relative;
+      z-index:0;
     }
   }
 

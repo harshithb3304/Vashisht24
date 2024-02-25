@@ -141,7 +141,7 @@
         margin-left: auto;
         top: 14px; /* Adjust the top position */
         left: 50%;
-        transform: translateX(-350%);
+        transform: translateX(-270%);
     }
 
     .hamburgerIcon {

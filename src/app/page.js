@@ -174,16 +174,18 @@ const Page = () => {
           width={150}
           height={120}
         />
-        <Image
-          src="/images/arrow.png"
-          className={styles.image16}
-          alt="Top Left"
-          width={400}
-          height={400}
-        />
         <Link href={"/about"}>
-          <h1>Embark on the Evolutionary Odyssey: Tech Through Time </h1>
+          <Image
+            src="/images/arrow.png"
+            className={styles.image16}
+            alt="Top Left"
+            width={400}
+            height={400}
+          />
         </Link>
+        {/* <Link href={"/about"}>
+          <h1>Embark on the Evolutionary Odyssey: Tech Through Time </h1>
+        </Link> */}
 
         <h2 className={styles.about_v}>About Vashisht</h2>
         <p className={styles.paragraph_landing}>
