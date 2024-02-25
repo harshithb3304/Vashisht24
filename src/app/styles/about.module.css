@@ -20,6 +20,8 @@
 .title{
     display:flex;
     align-items: center;
+    margin-top: -5rem;
+    
     /* justify-content: space-between; */
 }
 .container ul li p {
