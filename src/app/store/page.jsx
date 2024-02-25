@@ -4,42 +4,36 @@ import styles from "@/app/styles/store.module.css";
 import Simcard from "/src/app/(components)/simcard";
 import Navbar from "@/app/(components)/navbar";
 import Footer from "@/app/(components)/footer";
+import Storesim from "../(components)/storesim";
 const storeData = [
   {
-    eventId: "store1",
-    eventName: "White ",
+    merchId: "store1",
+    eventName: "WHITE T SHIRT ",
     imageSrc2: "/images/whiteTshirt.png",
     imageSrc: "/images/whiteTshirt.png",
     eventInfo:
       "This stylish white t-shirt features an abstract, modern design with geometric shapes and typography in shades of blue, orange, and black. The words “NEXUS” and “AEON” add intrigue with nothing on back.",
-    eventPrize: "₹100000",
-    eventDate: "Wear the Vibe - Unleash Your Style",
-    eventTime: "10:00 PM",
+    merchprice: "₹100000",
     eventLink: "/",
   },
   {
-    eventId: "store2",
-    eventName: "Black T Shirt",
+    merchId: "store2",
+    eventName: "BLACK T SHIRT",
     imageSrc2: "/images/Black-T-Shirt.png",
     imageSrc: "/images/Black-T-Shirt.png",
     eventInfo:
       "This black t-shirt features a minimalist design with a checkbox and “I m not a robot” on the front, and an intricate blue robotic head design labeled “NEXUS AEON” on the back",
-    eventPrize: "₹20000000",
-    eventDate: "Express Your Humanity in Style!",
-    eventTime: "10:00 PM",
+    merchprice: "₹019830",
     eventLink: "/",
   },
   {
-    eventId: "store3",
-    eventName: "Jacket",
+    merchId: "store3",
+    eventName: "HOODIE",
     imageSrc: "/images/Merch-removebg-preview.png",
     imageSrc2: "/images/Merch-removebg-preview.png",
     eventInfo:
       "This black varsity jacket is a blend of classic collegiate style and modern design. It features a solid black front with a bold white “ V,” striped cuffs, and white pockets. The back showcases an intricate “NEXUS REON” graphic. ",
-    eventPrize: "₹20000000",
-    eventDate:
-      "Vintage Vibes, Modern Appeal - Step into Style with the Nexus Aeon Varsity Jacket!",
-    eventTime: "10:00 PM",
+    merchprice: "₹20000000",
     eventLink: "/",
   },
   // Add more simcard data as needed
@@ -63,7 +57,7 @@ const Page = () => {
       </div>
       <div className={styles.cardLayout}>
         {storeData.map((item, index) => (
-          <Simcard key={index} item={item} />
+          <Storesim key={index} item={item} />
         ))}
       </div>
       <Footer />

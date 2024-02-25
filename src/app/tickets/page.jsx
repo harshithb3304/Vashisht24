@@ -30,7 +30,7 @@ const Tickets = () => {
             {styles.eventPrize}
           </p>
           <p>
-            <span style={{ color: "#e800d2" }}>TIME:</span> 10:00 AM
+            <span style={{ color: "#e800d2" }}>TIME:</span> ALL DAY
           </p>
           <p>
             <span style={{ color: "#e800d2" }}>VENUE:</span> IIITDM KANCHEEPURAM
