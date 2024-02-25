@@ -10,14 +10,14 @@ import Navbar from "../(components)/navbar";
 
 const sponsorUrls = {
   previous: [
-    "http://www.vashisht.iiitdm.ac.in/images/sponsors/contentstack.png",
-    "http://www.vashisht.iiitdm.ac.in/images/sponsors/cigniti.png",
-    "http://www.vashisht.iiitdm.ac.in/images/sponsors/Cyient.png",
+    "/images/contentstack.png",
+    "/images/cigniti.png",
+    "/images/Cyient.png",
     "./images/unstop.png",
     "./images/indian bank.png",
-    "http://www.vashisht.iiitdm.ac.in/images/sponsors/hvtechnologies.png",
-    "http://www.vashisht.iiitdm.ac.in/images/sponsors/dic-iiitdm.png",
-    "http://www.vashisht.iiitdm.ac.in/images/sponsors/IEEE.png",
+    "/images/hvtechnologies.png",
+    "/images/dic-iiitdm.png",
+    "/images/IEEE.jpeg",
   ],
   current: [
     "./images/360flyingclub.png",

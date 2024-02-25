@@ -155,7 +155,7 @@ const Page = () => {
           className={styles.location_text}
           target={"_blank"}
         >
-          target location
+          Find Us Here
         </a>
       </div>
 

@@ -39,11 +39,6 @@ const storeData = [
   // Add more simcard data as needed
 ];
 const Page = () => {
-  const simcardData = [
-    { text: "WORKSHOP 1", imageSrc: "/images/NexusAeonBlack.png" },
-    { text: "WORKSHOP 2", imageSrc: "/images/NexusAeonBnW.png" },
-    { text: "WORKSHOP 3", imageSrc: "/images/NexusAeonWhite.png" },
-  ];
   return (
     <main className={styles.storeMain}>
       <Navbar />
