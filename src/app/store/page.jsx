@@ -8,7 +8,7 @@ import Storesim from "../(components)/storesim";
 const storeData = [
   {
     merchId: "store1",
-    eventName: "WHITE T-SHIRT ",
+    eventName: "WHITE T SHIRT ",
     imageSrc2: "/images/whiteTshirt.png",
     imageSrc: "/images/whiteTshirt.png",
     eventInfo:

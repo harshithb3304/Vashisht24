@@ -7,7 +7,15 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Storesim = ({ item }) => {
-  const { text, imageSrc, eventName, merchId, merchprice, imageSrc2 } = item;
+  const {
+    text,
+    imageSrc,
+    eventName,
+    merchId,
+    merchprice,
+    imageSrc2,
+    eventInfo,
+  } = item;
 
   return (
     <main>
@@ -180,6 +188,7 @@ const Storesim = ({ item }) => {
               </svg>
             </div>
             <div className={styles.cardBody}>
+              <p className={styles.cardInfo}>{eventInfo}</p>
               <p className={styles.cardInfo}>{merchprice}</p>
             </div>
             <div className={styles.imageContainer}>
