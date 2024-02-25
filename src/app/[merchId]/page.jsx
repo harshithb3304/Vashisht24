@@ -10,9 +10,9 @@ const EventDetails = ({ params }) => {
   // const eventId = params.eventId;
   // const event = simcardData.find((item) => item.eventId === eventId);
   // const eventsEventData = events.find((item) => item.eventId === eventId);
-  const eventId = params.eventId;
+  const eventId = params.merchId;
   const combinedData = [...storeData];
-  const event = combinedData.find((item) => item.eventId === eventId);
+  const event = combinedData.find((item) => item.merchId === eventId);
 
   return (
     <main>

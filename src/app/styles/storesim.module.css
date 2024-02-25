@@ -39,21 +39,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transition: right 2s ease, background 2s ease;
-    overflow-y: auto;
+   
     
 
-}
-
-.card:hover .cardBody {
-    right: 0;
-    background: #E800D2;
-    border-radius: 0;
-    overflow-y: visible;
-}
-
-.card:hover .card {
-    opacity: 0; /* Make the original card completely disappear */
 }
 
 .cardInfo {
@@ -105,12 +93,6 @@
     right: 50px;
 }
 
-.cardButton:hover {
-    background-color: #FF00FF;
-    cursor: pointer;
-    transform: translateY(-5px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
 
 .svg-overlay {
     position: absolute;
@@ -153,18 +135,4 @@
     margin-left: 25px;
     margin-top: 50px;
     margin-bottom: 10px;
-}
-
-.card:hover .imageContainer,
-.card:hover .cardText,
-.card:hover .cardButton {
-    opacity: 0;
-}
-.cardBody::-webkit-scrollbar {
-    width: 20px; /* Set the width of the scrollbar */
-}
-
-.cardBody::-webkit-scrollbar-thumb {
-    background-color: #ffffff; /* Set the color of the scrollbar thumb */
-    border-radius: 16px; /* Round the corners of the scrollbar thumb */
 }
