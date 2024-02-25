@@ -51,10 +51,9 @@ const Navbar = () => {
           }`}
         >
           <div className={styles.navbarArrangement}>
-
-          <Link href={"/about"} style={linkStyles} >
+            <Link href={"/about"} style={linkStyles}>
               ABOUT
-              </Link>
+            </Link>
             <Link href={"/workshops"} style={linkStyles}>
               WORKSHOPS & TALKS
             </Link>
@@ -73,6 +72,9 @@ const Navbar = () => {
 
             <Link href={"/sponsors"} style={linkStyles}>
               SPONSORS
+            </Link>
+            <Link href={"/tickets"} style={linkStyles}>
+              TICKETS
             </Link>
           </div>
         </div>

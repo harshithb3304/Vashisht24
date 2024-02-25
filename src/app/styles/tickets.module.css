@@ -1,0 +1,94 @@
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 150px;
+}
+.heading{
+    color: white;
+    font-family: 'VCR OSD Mono', monospace;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 40px;
+    padding: 0 20px;
+}
+.content{
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: '0e';
+    text-align: 'center';
+    width: auto;
+    text-decoration-color: #FFF;;
+    color: #FFF;
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+
+.venue{
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+.tickets{
+    text-align: center;
+}
+.Button{
+    width: auto;
+    margin-top: 2rem; 
+    margin-bottom: 2rem; 
+    padding: 0.5rem 1rem; 
+    font-size: 1rem; 
+    border-radius: 0.5rem;
+    color: white;
+    background-color: #e800d2;
+}
+.Button1 :hover{
+    opacity: 30;
+    background-color: #e800d2;
+}
+.ticket {
+    position: relative;
+    display: inline-block;
+    align-items: center;
+  }
+  .tooltip {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .ticket:hover .tooltip  {
+    visibility: visible;
+    opacity: 1;
+    background-color: #e800d2;
+    cursor: pointer;
+  }
+  
+  .ticket:hover .ticket_image {
+    filter: blur(5px);
+  }
+  .ticket_image {
+    transition: filter 0.3s ease;
+    width: auto;
+  }
+  
+.footer {
+    margin-top: auto;
+}

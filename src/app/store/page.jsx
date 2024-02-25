@@ -7,25 +7,38 @@ import Footer from "@/app/(components)/footer";
 const storeData = [
   {
     eventId: "store1",
-    eventName: "STORE  1",
-    imageSrc: "/images/ball.png",
-    imageSrc2: "/images/ball.png",
+    eventName: "White ",
+    imageSrc2: "/images/whiteTshirt.png",
+    imageSrc: "/images/whiteTshirt.png",
     eventInfo:
-      "Join us for an introductory workshop on React. Learn the basics and get started with building web applications.",
+      "This stylish white t-shirt features an abstract, modern design with geometric shapes and typography in shades of blue, orange, and black. The words “NEXUS” and “AEON” add intrigue with nothing on back.",
     eventPrize: "₹100000",
-    eventDate: "16th February 2024",
+    eventDate: "Wear the Vibe - Unleash Your Style",
     eventTime: "10:00 PM",
     eventLink: "/",
   },
   {
     eventId: "store2",
-    eventName: "STORE 2",
-    imageSrc: "/images/ball.png",
-    imageSrc2: "/images/ball.png",
+    eventName: "Black T Shirt",
+    imageSrc2: "/images/Black-T-Shirt.png",
+    imageSrc: "/images/Black-T-Shirt.png",
     eventInfo:
-      "Explore advanced CSS techniques and best practices. Dive into responsive design, animations, and more.",
+      "This black t-shirt features a minimalist design with a checkbox and “I m not a robot” on the front, and an intricate blue robotic head design labeled “NEXUS AEON” on the back",
     eventPrize: "₹20000000",
-    eventDate: "16th February 2024",
+    eventDate: "Express Your Humanity in Style!",
+    eventTime: "10:00 PM",
+    eventLink: "/",
+  },
+  {
+    eventId: "store3",
+    eventName: "Jacket",
+    imageSrc: "/images/Merch-removebg-preview.png",
+    imageSrc2: "/images/Merch-removebg-preview.png",
+    eventInfo:
+      "This black varsity jacket is a blend of classic collegiate style and modern design. It features a solid black front with a bold white “ V,” striped cuffs, and white pockets. The back showcases an intricate “NEXUS REON” graphic. ",
+    eventPrize: "₹20000000",
+    eventDate:
+      "Vintage Vibes, Modern Appeal - Step into Style with the Nexus Aeon Varsity Jacket!",
     eventTime: "10:00 PM",
     eventLink: "/",
   },
@@ -45,7 +58,7 @@ const Page = () => {
         <div className={styles.storeContent}>
           Book a Workshop at Vashisht 24 and unlock FREE access to EDM Night,
           Robowars, Guest Lectures, Exhibitions, Summits, and Gaming setups.
-          Limited seats – seize the chance to blend learning with entertainment!
+          Limited seats - seize the chance to blend learning with entertainment!
         </div>
       </div>
       <div className={styles.cardLayout}>
