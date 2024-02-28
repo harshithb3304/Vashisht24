@@ -31,12 +31,12 @@
     text-align: center;
     width: 50.4375rem; /* 807px converted to rem */
     height: 6.25rem; /* 100px converted to rem */
-    top: 12.5rem; /* 200px converted to rem */
+    top: 20.5rem; /* 200px converted to rem */
     left: 14.75rem; /* 236px converted to rem */
     text-decoration-color: #ffffff;
     color: #ffffff;
     display: block;
-    margin-top: 0.625rem; /* 10px converted to rem */
+    margin-top: 5rem; /* 10px converted to rem */
     margin-bottom: 3rem;
 }
 
@@ -73,6 +73,7 @@
     transition: background-color 0.3s ease, transform 0.3s ease;
     position: relative;
     bottom: 0%;
+    margin-top: 3rem;
 }
 
 .registerButton:hover {

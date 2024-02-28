@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
         <br />
         <a href="mailto:vashisht.techfest@iiitdm.ac.in">
-          vashsiht.techfest@iiitdm.ac.in
+          vashisht.techfest@iiitdm.ac.in
         </a>
         <br />
         {/* <span>9642287347 | 9393107783 | 8197714735</span> */}

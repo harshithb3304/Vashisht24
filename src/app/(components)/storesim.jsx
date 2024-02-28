@@ -205,7 +205,7 @@ const Storesim = ({ item }) => {
             </div>
           </div>
           <Link href={`https://forms.gle/6LrMuHQXqkaZX9YP7`}>
-            <button className={styles.cardButton}>MORE DETAILS</button>
+            <button className={styles.cardButton}>BUY IT NOW</button>
           </Link>
         </div>
       </div>

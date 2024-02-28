@@ -35,7 +35,7 @@ const storeData = [
       "This black varsity jacket is a blend of classic collegiate style and modern design. It features a solid black front with a bold white “ V,” striped cuffs, and white pockets. The back showcases an intricate “NEXUS REON” graphic. ",
     merchprice: "₹20000000",
     eventLink: "/",
-  }, 
+  },
   // Add more simcard data as needed
 ];
 const Page = () => {
@@ -45,9 +45,7 @@ const Page = () => {
       <div className={styles.storeInfo}>
         <div className={styles.storeHeading}>STORE</div>
         <div className={styles.storeContent}>
-          Book a Workshop at Vashisht 24 and unlock FREE access to EDM Night,
-          Robowars, Guest Lectures, Exhibitions, Summits, and Gaming setups.
-          Limited seats - seize the chance to blend learning with entertainment!
+          Buy exclusive Vashisht Nexus Aeon merchandise here!!!!
         </div>
       </div>
       <div className={styles.cardLayout}>
