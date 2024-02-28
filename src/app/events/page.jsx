@@ -59,7 +59,7 @@ const events = [
   },
   {
     eventId: "namo",
-    eventName: "NAVNIRMANA AEROMODELLING CHALLENGE",
+    eventName: "Nexus Aero Modelling Olympiad",
     imageSrc: "/images/9.jpg",
     imageSrc2: "/images/10.jpg",
     eventInfo:

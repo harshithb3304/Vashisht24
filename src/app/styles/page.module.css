@@ -224,18 +224,16 @@
 
 
   
-  .horizontal_rectangle {
-    position: absolute; /* Position the rectangles absolutely within the location container */
-    top: 62%; /* Adjust the top position as needed */
-    left: 60%; /* Adjust the left position as needed */
+  /* .horizontal_rectangle {
+    position: absolute;
+    left: 550%; 
     width: 338px;
     height: 8px;
     flex-shrink: 0;
     background: #E800D2;
-    z-index: 1; /* Ensure the rectangles appear above other content within the location container */
+    z-index: 1; 
     box-shadow: 0px 4px 4px #000;
-    animation: parallaxAnimation 2s infinite alternate;
-  }
+  } */
 
 
 
@@ -265,7 +263,7 @@
   font-weight: 400;
   line-height: normal;
   white-space: nowrap;
-  animation: parallaxAnimation 2s infinite alternate;
+  /* animation: parallaxAnimation 2s infinite alternate; */
 }
 
 

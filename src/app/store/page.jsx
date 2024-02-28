@@ -35,7 +35,7 @@ const storeData = [
       "This black varsity jacket is a blend of classic collegiate style and modern design. It features a solid black front with a bold white “ V,” striped cuffs, and white pockets. The back showcases an intricate “NEXUS REON” graphic. ",
     merchprice: "₹20000000",
     eventLink: "/",
-  },
+  }, 
   // Add more simcard data as needed
 ];
 const Page = () => {

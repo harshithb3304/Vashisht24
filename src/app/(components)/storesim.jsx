@@ -204,7 +204,7 @@ const Storesim = ({ item }) => {
               <p className={styles.cardText}>{text}</p>
             </div>
           </div>
-          <Link href={`/${merchId}`}>
+          <Link href={`https://forms.gle/6LrMuHQXqkaZX9YP7`}>
             <button className={styles.cardButton}>MORE DETAILS</button>
           </Link>
         </div>
