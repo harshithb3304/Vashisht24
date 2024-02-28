@@ -30,7 +30,8 @@ const Footer = () => {
           vashsiht.techfest@iiitdm.ac.in
         </a>
         <br />
-        <span>9642287347 | 9393107783 | 8197714735</span>
+        {/* <span>9642287347 | 9393107783 | 8197714735</span> */}
+        <span>9393107783 | 8197714735</span>
       </div>
       <div className={styles.third}>
         <div className={styles.name3}>
