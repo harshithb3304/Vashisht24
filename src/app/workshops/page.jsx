@@ -9,9 +9,9 @@ const simcardData = [
   {
     eventId: "workshop1",
     eventName: "ALTAIR ENGINEERING",
-    imageSrc: "/images/talk.png",
+    imageSrc: "/images/debi.jpeg",
     eventInfo:
-      "Join us for an enlightening talk on data science and machine learning applications from Altair. Gain insights into practical applications across industries and explore the dynamic intersection of these technologies. Explore exciting internship opportunities at Altair, offering a chance to contribute to cutting-edge projects and deepen your understanding of the field. Don't miss this unique opportunity to advance your knowledge.",
+      "Debi Prasad Dash, the visionary force behind iconic projects like the Vandebharat (T18), boasts over three decades of exemplary expertise in electrical engineering and project management within the railway sector. As the former General Manager at Chittaranjan Locomotive Works (CLW), his leadership propelled the factory to unprecedented heights, including the groundbreaking achievement of manufacturing 300 locomotives in record time. Mr. Dash's pivotal role in initiatives such as the Vandebharat project underscores his dedication to driving innovation and excellence in railway transportation, shaping the landscape of sustainable development within the industry.",
     eventPrize: "NULL",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
@@ -20,10 +20,10 @@ const simcardData = [
   },
   {
     eventId: "workshop2",
-    eventName: "INDUSTRY EXPERT TALK",
-    imageSrc: "/images/talk.png",
+    eventName: "MASTERING THE ART OF UI/UX",
+    imageSrc: "/images/mukesh_kumar.jpeg",
     eventInfo:
-      "Join us for an enlightening industry expert talk organized by the Society of Automotive Engineers (SAE) club at our college. This event will delve into the cutting-edge advancements and challenges within the automotive engineering realm, reflecting SAE's core mission of fostering innovation and excellence in mobility engineering. Our distinguished speaker, a seasoned professional with extensive experience in the automotive industry, will share valuable insights, emerging trends, and future prospects shaping the landscape of automotive technology",
+      "Mr. Mukesh Kumar Ranjan graduated from IIT Guwahati. He has diverse experience of designing digital products of 5+ years of experience at various organizations like Yocket, Economic Times, Dineout, EdgeVerve, Cubastion Consulting and Cloudesign in the field of Ed Tech, Digital News,Food and beverages, and Al and Automation.",
     eventPrize: "NULL",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
@@ -33,9 +33,9 @@ const simcardData = [
   {
     eventId: "workshop3",
     eventName: "TECH CONNECT",
-    imageSrc: "/images/talk.png",
+    imageSrc: "/images/sudeesh.jpeg",
     eventInfo:
-      "Experience the power of connection at 'Tech Connect,' where brilliance ignites inspiration! Immerse yourself in an illuminating lecture by a distinguished thought leader, unveiling cutting-edge insights and trends shaping the tech landscape. Elevate your understanding, forge meaningful connections, and embark on a journey of innovation and possibility!",
+      "Sudeesh is a competent management professional and Data Scientist with over 24 years of cross functional experience that includes Machine Learning, Deep Learning, Forecasting, Optimization, Simulation, Predictive modeling, business analytics, operations management and consulting in data science projects and development.",
     eventPrize: "NULL",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
@@ -57,9 +57,9 @@ const simcardData = [
   {
     eventId: "workshop5",
     eventName: "AAKASHVANI",
-    imageSrc: "/images/talk.png",
+    imageSrc: "/images/elangovan.jpeg",
     eventInfo:
-      "Join us for an enlightening talk on Aero Designing, where DR. N. SURESHKUMAR, Chairman 360 Group of Companies, a seasoned expert in the field, will share insights into the fascinating world of aircraft design and innovation.",
+      "With 42 years of experience, including 8 in international Aerospace R&D at Vikram Sarabhai Space Center, ISRO, Prof. R.R. Elangovan excels in Marketing and Implementing Satellite Communication Projects in the Middle East and Africa. He established Aeronautical Engineering Departments across three countries, holding pivotal roles like Scientist Engineer, Project Manager, and Professor.",
     eventPrize: "NULL",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
