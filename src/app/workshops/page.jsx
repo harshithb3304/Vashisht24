@@ -8,7 +8,7 @@ import Footer from "@/app/(components)/footer";
 const simcardData = [
   {
     eventId: "workshop1",
-    eventName: "ALTAIR ENGINEERING",
+    eventName: "INAUGRAL CEREMONY FOR VASHISHT",
     imageSrc: "/images/debi.jpeg",
     eventInfo:
       "Debi Prasad Dash, the visionary force behind iconic projects like the Vandebharat (T18), boasts over three decades of exemplary expertise in electrical engineering and project management within the railway sector. As the former General Manager at Chittaranjan Locomotive Works (CLW), his leadership propelled the factory to unprecedented heights, including the groundbreaking achievement of manufacturing 300 locomotives in record time. Mr. Dash's pivotal role in initiatives such as the Vandebharat project underscores his dedication to driving innovation and excellence in railway transportation, shaping the landscape of sustainable development within the industry.",
