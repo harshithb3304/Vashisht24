@@ -80,6 +80,12 @@ const Page = () => {
           electric points provided in each room are to be used only for mobile
           phone, laptop charging and mosquito repellant. Use of any other
           electric appliances in the hostel is strictly prohibited.
+          <br />
+          <br />
+          7. Every person has to get a pass to attend any events at Vashisht. 
+          <br />
+          <br />
+          8. <strong>Limited Accommodation</strong> shall be provided on <strong>first come first serve basis</strong>, please ensure you choose the <strong>number of days before booking, (The accommodation amount for three days is ₹800 and for single day it is ₹300</strong> at IIITDM Kancheepuram campus). Kindly note, we have limited accommodation for people. <strong>The accommodation shall be from 12pm during check in and 2pm for check out.</strong>
         </div>
         <br />
       </div>
