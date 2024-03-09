@@ -83,9 +83,7 @@ const Page = () => {
       <div className={styles.workshopInfo}>
         <div className={styles.workshopHeading}>WORKSHOPS & TALKS</div>
         <div className={styles.workshopContent}>
-          Book a Workshop at Vashisht 24 and unlock FREE access to EDM Night,
-          Robowars, Guest Lectures, Exhibitions, Summits, and Gaming setups.
-          Limited seats – seize the chance to blend learning with entertainment!
+        Unlock insights from industry leaders. Reserve your pass to access exclusive workshops and talks at Vashisht 2024.
         </div>
       </div>
       <div className={styles.cardLayout}>

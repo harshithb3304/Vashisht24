@@ -13,7 +13,7 @@ const accommodationData = [
     imageSrc: "/images/ball.png",
     eventInfo:
       "Join us for an introductory workshop on React. Learn the basics and get started with building web applications.",
-    eventPrize: "₹100000",
+    eventPrize: "₹100k",
     eventDate: "16th February 2024",
     eventTime: "10:00 PM",
     eventLink: "/",
@@ -39,18 +39,7 @@ const Page = () => {
       <div className={styles.accommodationInfo}>
         <div className={styles.accomodationHeading}>ACCOMMODATION</div>
         <div className={styles.accommodationContent}>
-          IIITDM Kancheepuram provides excellent accommodation to its students.
-          The students are provided with all the amenities so that their stay
-          here becomes a worthwhile experience. At institute there is a good
-          blend of academic, cultural, and social experience to all the
-          students, scholars, staffs and faculties. Various co-curricular
-          activities such as a coding contest, design challenges and etc, are
-          coordinated by the respective clubs all throughout the year. Various
-          sports tournaments such as basketball, cricket, badminton, etc are
-          coordinated by the respective hostel sports secretary all throughout
-          the year. Students also enjoy several cultural activities throughout
-          the years conducted at hostel level. In addition to this, many
-          cultural and social activities also happen during the academic year.
+        Rest easy at IIITDM Kancheepuram. Limited accommodation available on a first-come, first-served basis. Book now to secure your stay! (Accommodation passes required for Vashisht access)
         </div>
         <br />
         <br />
@@ -91,6 +80,12 @@ const Page = () => {
           electric points provided in each room are to be used only for mobile
           phone, laptop charging and mosquito repellant. Use of any other
           electric appliances in the hostel is strictly prohibited.
+          <br />
+          <br />
+          7. Every person has to get a pass to attend any events at Vashisht. 
+          <br />
+          <br />
+          8. <strong>Limited Accommodation</strong> shall be provided on <strong>first come first serve basis</strong>, please ensure you choose the <strong>number of days before booking, (The accommodation amount for three days is ₹800 and for single day it is ₹300</strong> at IIITDM Kancheepuram campus). Kindly note, we have limited accommodation for people. <strong>The accommodation shall be from 12pm during check in and 2pm for check out.</strong>
         </div>
         <br />
       </div>
