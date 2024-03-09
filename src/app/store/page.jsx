@@ -8,7 +8,7 @@ import Storesim from "../(components)/storesim";
 const storeData = [
   {
     merchId: "store1",
-    eventName: "WHITE T SHIRT ",
+    eventName: `WHITE T SHIRT `,
     imageSrc2: "/images/whiteTshirt.png",
     imageSrc: "/images/whiteTshirt.png",
     eventInfo:
@@ -45,7 +45,8 @@ const Page = () => {
       <div className={styles.storeInfo}>
         <div className={styles.storeHeading}>STORE</div>
         <div className={styles.storeContent}>
-          Buy exclusive Vashisht Nexus Aeon merchandise here!!!!
+        Grab your piece of Vashisht history. Limited-edition hoodies and t-shirts available now! Don't miss out—get yours before they're gone.
+
         </div>
       </div>
       <div className={styles.cardLayout}>
