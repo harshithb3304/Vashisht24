@@ -67,7 +67,7 @@ const Navbar = () => {
               ACCOMMODATION
             </Link>
             <Link href={"/store"} style={linkStyles}>
-              STORE
+              MERCHANDISE
             </Link>
 
             <Link href={"/sponsors"} style={linkStyles}>

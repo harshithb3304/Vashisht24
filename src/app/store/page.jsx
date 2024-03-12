@@ -8,17 +8,17 @@ import Storesim from "../(components)/storesim";
 const storeData = [
   {
     merchId: "store1",
-    eventName: "WHITE T SHIRT ",
+    eventName: "WHITE TEES",
     imageSrc2: "/images/whiteTshirt.png",
     imageSrc: "/images/whiteTshirt.png",
     eventInfo:
       "This stylish white t-shirt features an abstract, modern design with geometric shapes and typography in shades of blue, orange, and black. The words “NEXUS” and “AEON” add intrigue with nothing on back.",
     merchprice: "₹100000",
-    eventLink: "/",
+    eventLink: "/", 
   },
   {
     merchId: "store2",
-    eventName: "BLACK T SHIRT",
+    eventName: "BLACK TEES",
     imageSrc2: "/images/Black-T-Shirt.png",
     imageSrc: "/images/Black-T-Shirt.png",
     eventInfo:
@@ -43,10 +43,11 @@ const Page = () => {
     <main className={styles.storeMain}>
       <Navbar />
       <div className={styles.storeInfo}>
-        <div className={styles.storeHeading}>STORE</div>
+        <div className={styles.storeHeading}>MERCHANDISE</div>
         <div className={styles.storeContent}>
-          Buy exclusive Vashisht Nexus Aeon merchandise here!!!!
-        </div>
+    Grab your piece of Vashisht history. Limited-edition hoodies and t-shirts available now! Don&apos;t miss out—get yours before they&apos;re gone.
+</div>
+
       </div>
       <div className={styles.cardLayout}>
         {storeData.map((item, index) => (

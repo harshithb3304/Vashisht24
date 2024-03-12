@@ -7,7 +7,7 @@ import Footer from "@/app/(components)/footer";
 const events = [
   {
     eventId: "robowars",
-    eventName: "ROBOWARS",
+    eventName: "ROBOWARS ",
     imageSrc: "/images/1.jpg",
     imageSrc2: "/images/2.jpg",
     eventInfo:
@@ -451,7 +451,7 @@ const Page = () => {
       <div className={styles.eventsInfo}>
         <div className={styles.eventsHeading}>EVENTS</div>
         <div className={styles.eventsContent}>
-          Register for exciting events and claim prizes!!
+        Join the action-packed lineup! Get your pass to participate in 50+ events at Vashisht 2024 and compete for over 5L in prizes.
         </div>
       </div>
       <div className={styles.cardLayout}>
