@@ -189,8 +189,9 @@ const Page = () => {
 
         <h2 className={styles.about_v}>About Vashisht</h2>
         <p className={styles.paragraph_landing}>
-        Vashisht '24, the fifth edition of IIITDM Kancheepuram's Annual Technical Fest, is set to create an inclusive platform for engineering enthusiasts. Titled NEXUSAEON, the event is designed to celebrate intelligence and creativity in a warm and welcoming environment. From robotics to entrepreneurship, coding to design, workshops to hackathons, participants will have the opportunity to showcase their diverse talents. Mark your calendars for March 15th, 16th, and 17th, as we embark on this exhilarating journey of innovation and learning at Vashisht '24.
-        </p>
+    Vashisht &apos;24, the fifth edition of IIITDM Kancheepuram&apos;s Annual Technical Fest, is set to create an inclusive platform for engineering enthusiasts. Titled NEXUSAEON, the event is designed to celebrate intelligence and creativity in a warm and welcoming environment. From robotics to entrepreneurship, coding to design, workshops to hackathons, participants will have the opportunity to showcase their diverse talents. Mark your calendars for March 15th, 16th, and 17th, as we embark on this exhilarating journey of innovation and learning at Vashisht &apos;24.
+</p>
+
         <Image
           src="/images/buildings.png"
           className={styles.image12}

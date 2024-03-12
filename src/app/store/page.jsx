@@ -45,8 +45,9 @@ const Page = () => {
       <div className={styles.storeInfo}>
         <div className={styles.storeHeading}>MERCHANDISE</div>
         <div className={styles.storeContent}>
-        Grab your piece of Vashisht history. Limited-edition hoodies and t-shirts available now! Don't miss out—get yours before they're gone.
-        </div>
+    Grab your piece of Vashisht history. Limited-edition hoodies and t-shirts available now! Don&apos;t miss out—get yours before they&apos;re gone.
+</div>
+
       </div>
       <div className={styles.cardLayout}>
         {storeData.map((item, index) => (
