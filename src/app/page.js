@@ -189,14 +189,7 @@ const Page = () => {
 
         <h2 className={styles.about_v}>About Vashisht</h2>
         <p className={styles.paragraph_landing}>
-          Vashisht24, the fifth edition of IIITDM Kancheepurams Annual Technical
-          Fest, NEXUSAEON, is set for March 15th to 17th, 2024, offering an
-          inclusive platform for engineering enthusiasts to celebrate
-          intelligence and creativity through diverse activities such as
-          robotics, entrepreneurship, coding, and design. It promotes
-          sustainability and defence exploration (RETROFUTURE), aiming to foster
-          a collaborative tech community, inviting individuals to embark on an
-          innovative journey.{" "}
+        Vashisht '24, the fifth edition of IIITDM Kancheepuram's Annual Technical Fest, is set to create an inclusive platform for engineering enthusiasts. Titled NEXUSAEON, the event is designed to celebrate intelligence and creativity in a warm and welcoming environment. From robotics to entrepreneurship, coding to design, workshops to hackathons, participants will have the opportunity to showcase their diverse talents. Mark your calendars for March 15th, 16th, and 17th, as we embark on this exhilarating journey of innovation and learning at Vashisht '24.
         </p>
         <Image
           src="/images/buildings.png"

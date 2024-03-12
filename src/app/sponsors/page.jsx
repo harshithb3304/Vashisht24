@@ -26,6 +26,9 @@ const sponsorUrls = {
     "./images/unstop.png",
     "./images/vyza solutions.png",
     "./images/OSSEB.png",
+    "./images/dreambright.jpg",
+    "./images/lightcast.jpg",
+    "./images/sriaalaya.jpg",
   ],
 };
 

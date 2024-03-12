@@ -2,23 +2,19 @@
 "use client";
 
 import React from "react";
-import styles from "../styles/simcard.module.css";
+import styles from "../styles/talksim.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import { simcardData } from "/src/app/workshops/page";
 
-const Simcard = ({ item }) => {
-  const prizemoney = "Prize: "
+const Talksim = ({ item }) => {
   const {
     text,
     imageSrc,
     eventName,
-    eventId,
-    eventPrize,
-    eventDate,
-    eventTime,
-    eventLink,
+    merchId,
+    merchprice,
     imageSrc2,
+    eventInfo,
   } = item;
 
   return (
@@ -192,14 +188,8 @@ const Simcard = ({ item }) => {
               </svg>
             </div>
             <div className={styles.cardBody}>
-              <p className={styles.cardInfo}>
-                {eventDate}
-                <br />
-                {eventTime}
-                <br />
-                {prizemoney}
-                {eventPrize}
-              </p>
+              <p className={styles.cardInfo}>{eventInfo}</p>
+              <p className={styles.cardInfo}>{merchprice}</p>
             </div>
             <div className={styles.imageContainer}>
               <Image
@@ -214,13 +204,11 @@ const Simcard = ({ item }) => {
               <p className={styles.cardText}>{text}</p>
             </div>
           </div>
-          <Link href={`/events/${eventId}`}>
-            <button className={styles.cardButton}>MORE DETAILS</button>
-          </Link>
+         
         </div>
       </div>
     </main>
   );
 };
 
-export default Simcard;
+export default Talksim;
