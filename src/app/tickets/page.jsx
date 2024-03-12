@@ -18,7 +18,9 @@ const Tickets = () => {
         <div className={styles.heading}>TICKETS</div>
         <div className={styles.content}>
           <p>
-          Secure your entry to Vashisht 2024. Passes required for access to all events, talks, and workshops. Reserve yours today!
+            Grab a pass now! to participate in in 50+ Vashisht events with over
+            5L in prize money. Get exclusive access to Events, Talk shows, and
+            Workshops with premier industry leaders!
           </p>
         </div>
 
