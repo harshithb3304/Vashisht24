@@ -7,7 +7,7 @@ import Footer from "@/app/(components)/footer";
 const events = [
   {
     eventId: "robowars",
-    eventName: "ROBOWARS",
+    eventName: "ROBOWARS ",
     imageSrc: "/images/1.jpg",
     imageSrc2: "/images/2.jpg",
     eventInfo:
